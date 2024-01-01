@@ -1,0 +1,187 @@
+<traders>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderBob']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderHugh']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderJoel']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderJen']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazinesTraderRekt']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group/item[@group='skillMagazines']"></remove>
+	<!--<remove xpath="/traders/trader_item_groups/trader_item_group/item[@group='skillMagazinesTraderBob']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group/item[@group='skillMagazinesTraderHugh']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group/item[@group='skillMagazinesTraderJoel']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group/item[@group='skillMagazinesTraderJen']"></remove>
+	<remove xpath="/traders/trader_item_groups/trader_item_group/item[@group='skillMagazinesTraderRekt']"></remove>-->
+	<remove xpath="/traders/trader_info/trader_items/item[@group='skillMagazines']"></remove>
+	<remove xpath="/traders/trader_info/trader_items/item[@group='skillMagazinesTraderBob']"></remove>
+	<remove xpath="/traders/trader_info/trader_items/item[@group='skillMagazinesTraderHugh']"></remove>
+	<remove xpath="/traders/trader_info/trader_items/item[@group='skillMagazinesTraderJoel']"></remove>
+	<remove xpath="/traders/trader_info/trader_items/item[@group='skillMagazinesTraderJen']"></remove>
+	<remove xpath="/traders/trader_info/trader_items/item[@group='skillMagazinesTraderRekt']"></remove>
+	
+	<insertBefore xpath="/traders/trader_item_groups/trader_item_group[@name='commonBooks']">
+		<trader_item_group name="farmingCookingRecipes">
+			<item name="drinkJarCoffeeSchematic"/> 
+			<item name="drinkJarGoldenRodTeaSchematic"/> 
+			<item name="drinkJarRedTeaSchematic"/> 
+			<item name="foodBaconAndEggsSchematic"/> 
+			<item name="foodBakedPotatoSchematic"/> 
+			<item name="foodBlueberryPieSchematic"/> 
+			<item name="foodBoiledMeatSchematic"/> 
+			<item name="foodCornBreadSchematic"/> 
+			<item name="foodCornOnTheCobSchematic"/> 
+			<item name="foodGrilledMeatSchematic"/> 
+			<item name="foodMeatStewSchematic"/> 
+			<item name="foodSteakAndPotatoSchematic"/> 
+			<item name="foodVegetableStewSchematic"/> 
+			<item name="foodShamChowderSchematic"/> 
+			<item name="foodHoboStewSchematic"/> 
+			<item name="foodFishTacosSchematic"/> 
+			<item name="foodChiliDogSchematic"/> 
+			<item name="foodPumpkinPieSchematic"/> 
+			<item name="foodPumpkinCheesecakeSchematic"/> 
+			<item name="foodPumpkinBreadSchematic"/> 
+			<item name="drinkYuccaJuiceSmoothieSchematic"/> 
+			<item name="drinkJarBeerSchematic"/> 
+			<item name="drinkJarGrandpasAwesomeSauceSchematic"/> 
+			<item name="drinkJarGrandpasLearningElixirSchematic"/> 
+			<item name="drinkJarGrandpasMoonshineSchematic"/> 
+			<item name="plantedAloe1Schematic"/> 
+			<item name="plantedBlueberry1Schematic"/> 
+			<item name="plantedChrysanthemum1Schematic"/> 
+			<item name="plantedCoffee1Schematic"/> 
+			<item name="plantedCorn1Schematic"/> 
+			<item name="plantedCotton1Schematic"/> 
+			<item name="plantedGoldenrod1Schematic"/> 
+			<item name="plantedGraceCorn1Schematic"/> 
+			<item name="plantedHop1Schematic"/> 
+			<item name="plantedMushroom1Schematic"/> 
+			<item name="plantedPotato1Schematic"/> 
+			<item name="plantedYucca1Schematic"/> 
+			<item name="plantedPumpkin1Schematic"/> 
+			<item name="foodGumboStewSchematic" prob=".6"/> 
+			<item name="foodShepardsPieSchematic" prob=".6"/> 
+			<item name="foodSpaghettiSchematic" prob=".6"/> 
+			<item name="foodTunaFishGravyToastSchematic" prob=".6"/> 
+		</trader_item_group>
+		<trader_item_group name="schematicsToolsCommon"> 
+			<item name="forgeSchematic"/> 
+			<item name="meleeToolIronSetSchematic"/> 
+			<item name="meleeToolSalvageT1WrenchSchematic"/> 
+			<item name="meleeWpnBladeT1HuntingKnifeSchematic"/> 
+			<item name="meleeWpnSledgeT1IronSledgehammerSchematic"/> 
+			<item name="ammoGasCanSchematic"/> 
+			<item name="resourceOilSchematic"/> 
+		</trader_item_group> 
+		<trader_item_group name="schematicsToolsRare"> 
+			<item name="meleeToolRepairT3NailgunSchematic"/> 
+			<item name="meleeToolSteelSetSchematic"/> 
+			<item name="meleeToolSalvageT2RatchetSchematic"/> 
+			<item name="meleeToolSalvageT3ImpactDriverSchematic"/> 
+			<item name="meleeWpnSledgeT3SteelSledgehammerSchematic"/> 
+			<item name="meleeToolPickT3AugerSchematic"/> 
+			<item name="meleeToolAxeT3ChainsawSchematic"/> 
+			<item name="toolBellowsSchematic"/> 
+			<item name="toolForgeCrucibleSchematic"/> 
+			<item name="toolAnvilSchematic"/> 
+			<item name="cementMixerSchematic"/> 
+			<item name="workbenchSchematic"/> 
+			<item name="chemistryStationSchematic"/> 
+		</trader_item_group> 
+		<trader_item_group name="schematicsWeaponsCommon"> 
+			<item name="gunHandgunT1PistolSchematic"/> 
+			<item name="gunShotgunT1DoubleBarrelSchematic"/> 
+			<item name="gunRifleT1HuntingRifleSchematic"/> 
+			<item name="gunMGT1AK47Schematic"/> 
+			<item name="gunBowT1WoodenBowSchematic"/> 
+			<item name="gunBowT1IronCrossbowSchematic"/> 
+			<item name="gunBotT1JunkSledgeSchematic"/> 
+			<item name="thrownAmmoPipeBombSchematic"/> 
+			<item name="thrownGrenadeSchematic"/> 
+			<item name="meleeWpnBladeT1HuntingKnifeSchematic"/> 
+			<item name="meleeWpnClubT1BaseballBatSchematic"/> 
+			<item name="meleeWpnBatonT2StunBatonSchematic"/> 
+			<item name="meleeWpnSpearT1IronSpearSchematic"/> 
+			<item name="meleeWpnKnucklesT1IronKnucklesSchematic"/> 
+		</trader_item_group> 
+		<trader_item_group name="schematicsVehiclesCommon"> 
+			<item name="vehicleBicycleChassisSchematic"/> 
+			<item name="vehicleBicycleHandlebarsSchematic"/> 
+			<item name="vehicleMinibikeChassisSchematic"/> 
+			<item name="vehicleMinibikeHandlebarsSchematic"/> 
+		</trader_item_group> 
+		<trader_item_group name="schematicsElectrical"> 
+			<item name="pressureplateSchematic"/> 
+			<item name="poweredDoorsSchematic"/> 
+			<item name="bladeTrapSchematic"/> 
+			<item name="dartTrapSchematic"/> 
+			<item name="shotgunTurretSchematic"/> 
+			<item name="autoTurretSchematic"/> 
+			<item name="electricfencepostSchematic"/> 
+			<item name="motionsensorSchematic"/> 
+			<item name="speakerSchematic"/> 
+			<item name="spotlightPlayerSchematic"/> 
+			<item name="switchSchematic"/> 
+			<item name="generatorbankSchematic"/> 
+			<item name="batterybankSchematic"/> 
+			<item name="electrictimerrelaySchematic"/> 
+		</trader_item_group> 	
+	</insertBefore>
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="medicalFirstAidBandageSchematic"/>
+		<item name="resourceMilitaryFiberSchematic"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='commonBooks']">
+		<item group="schematicsToolsCommon" prob="7"/>
+		<item group="schematicsWeaponsCommon" prob="14"/>
+		<item group="schematicsVehiclesCommon" prob="4"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<item name="meleeWpnBladeT3MacheteSchematic"/>
+		<item name="gunBowT3CompoundBowSchematic"/>
+		<item name="gunBowT3CompoundCrossbowSchematic"/>
+		<item name="gunHandgunT2Magnum44Schematic"/>
+		<item name="gunShotgunT2PumpShotgunSchematic"/>
+		<item name="gunHandgunT3SMG5Schematic"/>
+		<item name="gunRifleT2LeverActionRifleSchematic"/>
+		<item name="gunExplosivesT3RocketLauncherSchematic"/>
+		<item name="gunBotT2JunkTurretSchematic" prob="0.66"/>
+		<item name="gunBotT3JunkDroneSchematic" prob="0.33"/>
+		<item name="armorMilitarySetSchematic"/>
+		<item name="armorSteelSetSchematic"/>
+		<item name="thrownAmmoPipeBombSchematic"/>
+		<item name="thrownDynamiteSchematic"/>
+		<item name="thrownGrenadeSchematic"/>
+		<item name="thrownGrenadeContactSchematic"/>
+		<item name="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+		<item name="thrownGrenadeContactSchematic"/>
+		<item name="thrownGrenadeSchematic"/>
+		<item name="thrownDynamiteSchematic"/> 
+		<item name="medicalFirstAidBandageSchematic"/> 
+		<item name="medicalFirstAidKitSchematic"/> 
+		<item name="medicalPlasterCastSchematic"/> 
+		<item name="drugAntibioticsSchematic"/> 
+		<item name="drugHerbalAntibioticsSchematic"/> 
+		<item name="forgeSchematic"/> 
+		<item name="foodShamChowderSchematic"/> 
+		<item name="foodHoboStewSchematic"/> 
+		<item name="foodFishTacosSchematic"/> 
+		<item name="drinkYuccaJuiceSmoothieSchematic"/> 
+		<item name="foodChiliDogSchematic"/> 
+		<item name="drinkJarBeerSchematic"/> 
+		<item name="drinkJarGrandpasAwesomeSauceSchematic"/> 
+		<item name="drinkJarGrandpasLearningElixirSchematic"/> 
+		<item name="drinkJarGrandpasMoonshineSchematic"/> 
+		<item name="vehicleMotorcycleChassisSchematic"/> 
+		<item name="vehicleMotorcycleHandlebarsSchematic"/> 
+		<item name="vehicle4x4TruckChassisSchematic"/> 
+		<item name="vehicle4x4TruckAccessoriesSchematic"/> 
+		<item name="vehicleGyroCopterChassisSchematic"/> 
+		<item name="vehicleGyroCopterAccessoriesSchematic"/> 
+		<item name="resourceMilitaryFiberSchematic"/> 
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='books']">
+		<item group="schematicsToolsRare" prob="1"/>
+		<item group="farmingCookingRecipes"/>
+	</append>
+</traders>

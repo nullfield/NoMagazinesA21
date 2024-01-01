@@ -1,0 +1,2699 @@
+<items>
+	<remove xpath="/items/item[@name='harvestingToolsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='repairToolsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='salvageToolsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='knucklesSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='bladesSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='clubsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='sledgehammersSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='spearsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='bowsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='handgunsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='shotgunsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='riflesSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='machineGunsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='explosivesSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='roboticsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='armorSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='medicalSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='foodSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='seedSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='electricianSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='trapsSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='workstationSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='vehiclesSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='adminSkillMagazine']"></remove>
+	<remove xpath="/items/item[@name='questRewardT1SkillMagazineBundle']"></remove>
+		
+	<append xpath="/items">
+		<item name="schematicMaster">
+			<property name="DescriptionKey" value="schematicGeneralGroupDesc" />
+			<property name="ItemTypeIcon" value="book" />
+			<property name="AltItemTypeIcon" value="book_read" />
+			<property name="CustomIcon" value="schematicMaster" />
+			<property name="CreativeMode" value="None" />
+			<property name="HoldType" value="31" />
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mpaper" />
+			<property name="Weight" value="5" />
+			<property name="Stacknumber" value="5" /> <!-- STK book -->
+			<property name="EconomicValue" value="800" />
+			<property name="Group" value="Books,Mods,SchematicsOnly" />
+			<property class="Action0">
+				<property name="Class" value="Eat" />
+				<property name="Delay" value="1.0" />
+				<property name="UseAnimation" value="false" />
+				<property name="Use_time" value="..." />
+				<property name="Sound_start" value="read_mod" />
+			<property name="Sound_in_head" value="true" />
+		  </property>
+		</item>
+		
+		<item name="meleeWpnClubT1BaseballBatSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnClubT1BaseballBat" />
+			<property name="Unlocks" value="meleeWpnClubT1BaseballBat" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnClubT1BaseballBat" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeWpnSledgeT1IronSledgehammerSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnSledgeT1IronSledgehammer" />
+			<property name="Unlocks" value="meleeWpnSledgeT1IronSledgehammer" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT1IronSledgehammer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeWpnSledgeT3SteelSledgehammerSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer" />
+			<property name="Unlocks" value="meleeWpnSledgeT3SteelSledgehammer" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSledgeT3SteelSledgehammer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeWpnBladeT1HuntingKnifeSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
+			<property name="Unlocks" value="meleeWpnBladeT1HuntingKnife" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT1HuntingKnife" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeWpnBladeT3MacheteSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnBladeT3Machete" />
+			<property name="Unlocks" value="meleeWpnBladeT3Machete" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBladeT3Machete" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeWpnBatonT2StunBatonSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnBatonT2StunBaton" />
+			<property name="Unlocks" value="meleeWpnBatonT2StunBaton" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnBatonT2StunBaton" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeToolIronSetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolRepairT1ClawHammer" />
+			<property name="Unlocks" value="meleeToolAxeT1IronFireaxe" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolRepairT1ClawHammer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT1IronFireaxe" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT1IronPickaxe" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolShovelT1IronShovel" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeToolSteelSetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolPickT2SteelPickaxe" />
+			<property name="Unlocks" value="meleeToolAxeT2SteelAxe" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT2SteelAxe" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT2SteelPickaxe" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolShovelT2SteelShovel" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeToolSalvageT1WrenchSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolSalvageT1Wrench" />
+			<property name="Unlocks" value="meleeToolSalvageT1Wrench" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT1Wrench" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeToolSalvageT2RatchetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolSalvageT2Ratchet" />
+			<property name="Unlocks" value="meleeToolSalvageT2Ratchet" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT2Ratchet" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeToolSalvageT3ImpactDriverSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolSalvageT3ImpactDriver" />
+			<property name="Unlocks" value="meleeToolSalvageT3ImpactDriver" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolSalvageT3ImpactDriver" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeToolPickT3AugerSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolPickT3Auger" />
+			<property name="Unlocks" value="meleeToolPickT3Auger" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolPickT3Auger" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeToolAxeT3ChainsawSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolAxeT3Chainsaw" />
+			<property name="Unlocks" value="meleeToolAxeT3Chainsaw" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolAxeT3Chainsaw" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeWpnSpearT1IronSpearSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnSpearT1IronSpear" />
+			<property name="Unlocks" value="meleeWpnSpearT1IronSpear" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnSpearT1IronSpear" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeWpnKnucklesT1IronKnucklesSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles" />
+			<property name="Unlocks" value="meleeWpnKnucklesT1IronKnuckles" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT1IronKnuckles" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="meleeWpnKnucklesT3SteelKnucklesSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles" />
+			<property name="Unlocks" value="meleeWpnKnucklesT3SteelKnuckles" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeWpnKnucklesT3SteelKnuckles" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBowT1WoodenBowSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBowT1WoodenBow" />
+			<property name="Unlocks" value="gunBowT1WoodenBow" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT1WoodenBow" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBowT3CompoundBowSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBowT3CompoundBow" />
+			<property name="Unlocks" value="gunBowT3CompoundBow" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundBow" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBowT1IronCrossbowSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBowT1IronCrossbow" />
+			<property name="Unlocks" value="gunBowT1IronCrossbow" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT1IronCrossbow" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBowT3CompoundCrossbowSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBowT3CompoundCrossbow" />
+			<property name="Unlocks" value="gunBowT3CompoundCrossbow" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundCrossbow" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunHandgunT1PistolSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunHandgunT1Pistol" />
+			<property name="Unlocks" value="gunHandgunT1Pistol" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT1Pistol" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunHandgunT2Magnum44Schematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunHandgunT2Magnum44" />
+			<property name="Unlocks" value="gunHandgunT2Magnum44" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT2Magnum44" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunHandgunT3DesertVultureSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunHandgunT3DesertVulture" />
+			<property name="Unlocks" value="gunHandgunT3DesertVulture" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT3DesertVulture" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunShotgunT1DoubleBarrelSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunShotgunT1DoubleBarrel" />
+			<property name="Unlocks" value="gunShotgunT1DoubleBarrel" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT1DoubleBarrel" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunShotgunT2PumpShotgunSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunShotgunT2PumpShotgun" />
+			<property name="Unlocks" value="gunShotgunT2PumpShotgun" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT2PumpShotgun" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunShotgunT3AutoShotgunSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunShotgunT3AutoShotgun" />
+			<property name="Unlocks" value="gunShotgunT3AutoShotgun" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunShotgunT3AutoShotgun" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunHandgunT3SMG5Schematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunHandgunT3SMG5" />
+			<property name="Unlocks" value="gunHandgunT3SMG5" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunHandgunT3SMG5" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunMGT1AK47Schematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunMGT1AK47" />
+			<property name="Unlocks" value="gunMGT1AK47" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT1AK47" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunMGT2TacticalARSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunMGT2TacticalAR" />
+			<property name="Unlocks" value="gunMGT2TacticalAR" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT2TacticalAR" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunMGT3M60Schematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunMGT3M60" />
+			<property name="Unlocks" value="gunMGT3M60" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunMGT3M60" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunRifleT1HuntingRifleSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunRifleT1HuntingRifle" />
+			<property name="Unlocks" value="gunRifleT1HuntingRifle" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT1HuntingRifle" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunRifleT2LeverActionRifleSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunRifleT2LeverActionRifle" />
+			<property name="Unlocks" value="gunRifleT2LeverActionRifle" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT2LeverActionRifle" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunRifleT3SniperRifleSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunRifleT3SniperRifle" />
+			<property name="Unlocks" value="gunRifleT3SniperRifle" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunRifleT3SniperRifle" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunExplosivesT3RocketLauncherSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunExplosivesT3RocketLauncher" />
+			<property name="Unlocks" value="gunExplosivesT3RocketLauncher" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunExplosivesT3RocketLauncher" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoRocketHE" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoRocketFrag" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceRocketTip" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceRocketCasing" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBotT1JunkSledgeSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBotT1JunkSledge" />
+			<property name="Unlocks" value="gunBotT1JunkSledge" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT1JunkSledge" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBotT2JunkTurretSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBotT2JunkTurret" />
+			<property name="Unlocks" value="gunBotT2JunkTurret" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT2JunkTurret" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="gunBotT3JunkDroneSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="gunBotT3JunkDrone" />
+			<property name="Unlocks" value="gunBotT3JunkDrone" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBotT3JunkDrone" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="armorLeatherSetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="armorLeatherChest" />
+			<property name="Unlocks" value="armorLeatherChest" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherHood" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherChest" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherGloves" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherPants" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherBoots" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="armorMilitarySetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="armorMilitaryVest" />
+			<property name="Unlocks" value="armorMilitaryVest" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryHelmet" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryVest" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryGloves" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryLegs" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryBoots" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="resourceMilitaryFiberSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="resourceMilitaryFiber" />
+			<property name="Unlocks" value="resourceMilitaryFiber" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceMilitaryFiber" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="armorIronSetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="armorIronChest" />
+			<property name="Unlocks" value="armorIronChest" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronHelmet" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronChest" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronGloves" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronLegs" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronBoots" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="armorSteelSetSchematic">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="armorSteelChest" />
+			<property name="Unlocks" value="armorSteelChest" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelHelmet" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelChest" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelGloves" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelLegs" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelBoots" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="schematicNoQualityMaster">
+			<property name="Extends" value="schematicMaster" />
+			<property name="DescriptionKey" value="schematicNoQualityGroupDesc" />
+			<property name="CreativeMode" value="None" />
+			<property name="CustomIcon" value="schematicMaster" />
+		</item>
+
+		<item name="thrownAmmoPipeBombSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="thrownAmmoPipeBomb" />
+			<property name="Unlocks" value="thrownAmmoPipeBomb" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownAmmoPipeBomb" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="thrownGrenadeContactSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="thrownGrenadeContact" />
+			<property name="Unlocks" value="thrownGrenadeContact" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeContact" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="thrownGrenadeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="thrownGrenade" />
+			<property name="Unlocks" value="thrownGrenade" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenade" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="thrownDynamiteSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="thrownDynamite" />
+			<property name="Unlocks" value="thrownDynamite" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownDynamite" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="meleeToolRepairT3NailgunSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="meleeToolRepairT3Nailgun" />
+			<property name="Unlocks" value="meleeToolRepairT3Nailgun" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolRepairT3Nailgun" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="medicalFirstAidBandageSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="medicalFirstAidBandage" />
+			<property name="Unlocks" value="medicalFirstAidBandage" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidBandage" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="medicalFirstAidKitSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="medicalFirstAidKit" />
+			<property name="Unlocks" value="medicalFirstAidKit" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalFirstAidKit" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="medicalPlasterCastSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="medicalPlasterCast" />
+			<property name="Unlocks" value="medicalPlasterCast" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalPlasterCast" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="toolBellowsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="toolBellows" />
+			<property name="Unlocks" value="toolBellows" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolBellows" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="toolForgeCrucibleSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="toolForgeCrucible" />
+			<property name="Unlocks" value="toolForgeCrucible" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolForgeCrucible" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="toolAnvilSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="toolAnvil" />
+			<property name="Unlocks" value="toolAnvil" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolAnvil" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="cementMixerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="cementMixer" />
+			<property name="Unlocks" value="cementMixer" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cementMixer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="workbenchSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="workbench" />
+			<property name="Unlocks" value="workbench" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="workbench" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="forgeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="forge" />
+			<property name="Unlocks" value="forge" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="forge" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="chemistryStationSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="chemistryStation" />
+			<property name="Unlocks" value="chemistryStation" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="chemistryStation" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="vehicleAnySchematic"> <!-- dummy item so I can put the unlock info on the wheels item -->
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="None" />
+			<property name="CustomIcon" value="vehicleWheels" />
+			<effect_group tiered="false">
+			</effect_group>
+		</item>
+
+		<item name="vehicleBicycleChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleBicycleChassis" />
+			<property name="Unlocks" value="vehicleBicycleChassis" />
+			<!-- "Unlocks" checks: Perks | cvars | recipes of the stated name that are unlocked by the passive "RecipeTagUnlocked".
+				If true, then the recipe is already known and the little "schematic" overlay is darkened out. -->
+
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBicycleChassis" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleBicycleHandlebarsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleBicycleHandlebars" />
+			<property name="Unlocks" value="vehicleBicycleHandlebars" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleBicycleHandlebars" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleMinibikeChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleMinibikeChassis" />
+			<property name="Unlocks" value="vehicleMinibikeChassis" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMinibikeChassis" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleMinibikeHandlebarsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleMinibikeHandlebars" />
+			<property name="Unlocks" value="vehicleMinibikeHandlebars" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMinibikeHandlebars" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleMotorcycleChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleMotorcycleChassis" />
+			<property name="Unlocks" value="vehicleMotorcycleChassis" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMotorcycleChassis" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleMotorcycleHandlebarsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleMotorcycleHandlebars" />
+			<property name="Unlocks" value="vehicleMotorcycleHandlebars" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleMotorcycleHandlebars" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicle4x4TruckChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicle4x4TruckChassis" />
+			<property name="Unlocks" value="vehicle4x4TruckChassis" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckChassis" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicle4x4TruckAccessoriesSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicle4x4TruckAccessories" />
+			<property name="Unlocks" value="vehicle4x4TruckAccessories" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckAccessories" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleGyroCopterChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleGyroCopterChassis" />
+			<property name="Unlocks" value="vehicleGyroCopterChassis" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleGyroCopterChassis" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="vehicleGyroCopterAccessoriesSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="vehicleGyroCopterAccessories" />
+			<property name="Unlocks" value="vehicleGyroCopterAccessories" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleGyroCopterAccessories" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="generatorbankSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="generatorbank" />
+			<property name="DescriptionKey" value="generatorbankSchematicDesc" />
+			<property name="Unlocks" value="generatorbank" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="generatorbank" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ceilingLight01_player" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="industrialLight01_player" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="industrialLight02_player" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ceilingLight07_player" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricwirerelay" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="pressureplateSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="pressureplate" />
+			<property name="DescriptionKey" value="pressureplateSchematicDesc" />
+			<property name="Unlocks" value="pressureplate" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pressureplate" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pressureplateLong" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="tripwirepost" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="poweredDoorsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="metalReinforcedWoodDrawBridge" />
+			<property name="DescriptionKey" value="poweredDoorsSchematicDesc" />
+			<property name="Unlocks" value="vaultDoor03_Powered" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="garageDoorMetal_v1Powered" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor03_Powered" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultHatch_v3_Powered" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="garageDoorHousePlayer_Powered" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="garageDoorIndustrial_Powered" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalReinforcedWoodDrawBridgePowered" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="bladeTrapSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="bladeTrap" />
+			<property name="Unlocks" value="bladeTrap" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bladeTrap" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="dartTrapSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="dartTrap" />
+			<property name="Unlocks" value="dartTrap" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dartTrap" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="shotgunTurretSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="shotgunTurret" />
+			<property name="Unlocks" value="shotgunTurret" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="shotgunTurret" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="autoTurretSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="autoTurret" />
+			<property name="Unlocks" value="autoTurret" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="autoTurret" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="electricfencepostSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="electricfencepost" />
+			<property name="Unlocks" value="electricfencepost" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepost" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="motionsensorSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="motionsensor" />
+			<property name="Unlocks" value="motionsensor" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="motionsensor" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="speakerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="speaker" />
+			<property name="Unlocks" value="speaker" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="speaker" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="spotlightPlayerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="spotlightNailedDownPOI" />
+			<property name="Unlocks" value="spotlightPlayer" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="spotlightPlayer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="switchSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="switch" />
+			<property name="Unlocks" value="switch" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="switch" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="batterybankSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="batterybank" />
+			<property name="Unlocks" value="batterybank" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="batterybank" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="electrictimerrelaySchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="electrictimerrelay" />
+			<property name="Unlocks" value="electrictimerrelay" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electrictimerrelay" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="modGunBarrelExtenderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunBarrelExtender" />
+			<property name="Unlocks" value="modGunBarrelExtender" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBarrelExtender" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunMuzzleBrakeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunMuzzleBrake" />
+			<property name="Unlocks" value="modGunMuzzleBrake" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMuzzleBrake" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunSoundSuppressorSilencerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunSoundSuppressorSilencer" />
+			<property name="Unlocks" value="modGunSoundSuppressorSilencer" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunSoundSuppressorSilencer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunLaserSightSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunLaserSight" />
+			<property name="Unlocks" value="modGunLaserSight" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunLaserSight" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunFlashlightSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunFlashlight" />
+			<property name="Unlocks" value="modGunFlashlight" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunFlashlight" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunScopeSmallSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunScopeSmall" />
+			<property name="Unlocks" value="modGunScopeSmall" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeSmall" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunScopeMediumSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunScopeMedium" />
+			<property name="Unlocks" value="modGunScopeMedium" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeMedium" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunScopeLargeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunScopeLarge" />
+			<property name="Unlocks" value="modGunScopeLarge" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeLarge" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunReflexSightSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunReflexSight" />
+			<property name="Unlocks" value="modGunReflexSight" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunReflexSight" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunTriggerGroupSemiSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunTriggerGroupSemi" />
+			<property name="Unlocks" value="modGunTriggerGroupSemi" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupSemi" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunTriggerGroupBurst3Schematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunTriggerGroupBurst" />
+			<property name="Unlocks" value="modGunTriggerGroupBurst3" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupBurst3" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunTriggerGroupAutomaticSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunTriggerGroupAutomatic" />
+			<property name="Unlocks" value="modGunTriggerGroupAutomatic" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunTriggerGroupAutomatic" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunBipodSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunBipod" />
+			<property name="Unlocks" value="modGunBipod" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBipod" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunForegripSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunForegrip" />
+			<property name="Unlocks" value="modGunForegrip" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunForegrip" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunRetractingStockSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunRetractingStock" />
+			<property name="Unlocks" value="modGunRetractingStock" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunRetractingStock" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunDuckbillSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunDuckbill" />
+			<property name="Unlocks" value="modGunDuckbill" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunDuckbill" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunChokeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunChoke" />
+			<property name="Unlocks" value="modGunChoke" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunChoke" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunMagazineExtenderSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunMagazineExtender" />
+			<property name="Unlocks" value="modGunMagazineExtender" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMagazineExtender" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modShotgunSawedOffBarrelSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modShotgunSawedOffBarrel" />
+			<property name="Unlocks" value="modShotgunSawedOffBarrel" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modShotgunSawedOffBarrel" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunCrippleEmSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunCrippleEm" />
+			<property name="Unlocks" value="modGunCrippleEm" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunCrippleEm" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunBowPolymerStringSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunBowPolymerString" />
+			<property name="Unlocks" value="modGunBowPolymerString" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowPolymerString" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunBowArrowRestSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunBowArrowRest" />
+			<property name="Unlocks" value="modGunBowArrowRest" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunBowArrowRest" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunMeleeTheHunterSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunMeleeTheHunter" />
+			<property name="Unlocks" value="modGunMeleeTheHunter" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeTheHunter" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunMeleeRadRemoverSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunMeleeRadRemover" />
+			<property name="Unlocks" value="modGunMeleeRadRemover" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeRadRemover" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modGunMeleeBlessedMetalSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modGunMeleeBlessedMetal" />
+			<property name="Unlocks" value="modGunMeleeBlessedMetal" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunMeleeBlessedMetal" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeTemperedBladeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeTemperedBlade" />
+			<property name="Unlocks" value="modMeleeTemperedBlade" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeTemperedBlade" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeSerratedBladeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeSerratedBlade" />
+			<property name="Unlocks" value="modMeleeSerratedBlade" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeSerratedBlade" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeWeightedHeadSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeWeightedHead" />
+			<property name="Unlocks" value="modMeleeWeightedHead" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeWeightedHead" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeStructuralBraceSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeStructuralBrace" />
+			<property name="Unlocks" value="modMeleeStructuralBrace" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeStructuralBrace" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeErgonomicGripSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeErgonomicGrip" />
+			<property name="Unlocks" value="modMeleeErgonomicGrip" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeErgonomicGrip" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeFortifyingGripSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeFortifyingGrip" />
+			<property name="Unlocks" value="modMeleeFortifyingGrip" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeFortifyingGrip" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeClubBarbedWireSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeClubBarbedWire" />
+			<property name="Unlocks" value="modMeleeClubBarbedWire" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubBarbedWire" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeClubMetalSpikesSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeClubMetalSpikes" />
+			<property name="Unlocks" value="modMeleeClubMetalSpikes" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubMetalSpikes" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+				
+		<item name="modMeleeGraveDiggerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeGraveDigger" />
+			<property name="Unlocks" value="modMeleeGraveDigger" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeGraveDigger" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeBunkerBusterSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeBunkerBuster" />
+			<property name="Unlocks" value="modMeleeBunkerBuster" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeBunkerBuster" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeIronBreakerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeIronBreaker" />
+			<property name="Unlocks" value="modMeleeIronBreaker" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeIronBreaker" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeWoodSplitterSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeWoodSplitter" />
+			<property name="Unlocks" value="modMeleeWoodSplitter" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeWoodSplitter" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modMeleeClubBurningShaftSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modMeleeClubBurningShaft" />
+			<property name="Unlocks" value="modMeleeClubBurningShaft" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMeleeClubBurningShaft" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorInsulatedLinerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorInsulatedLiner" />
+			<property name="Unlocks" value="modArmorInsulatedLiner" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorInsulatedLiner" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorCoolingMeshSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorCoolingMesh" />
+			<property name="Unlocks" value="modArmorCoolingMesh" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCoolingMesh" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorImprovedFittingsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorImprovedFittings" />
+			<property name="Unlocks" value="modArmorImprovedFittings" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorImprovedFittings" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorCustomizedFittingsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorCustomizedFittings" />
+			<property name="Unlocks" value="modArmorCustomizedFittings" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCustomizedFittings" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorPlatingBasicSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorPlatingBasic" />
+			<property name="Unlocks" value="modArmorPlatingBasic" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlatingBasic" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorPlatingReinforcedSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorPlatingReinforced" />
+			<property name="Unlocks" value="modArmorPlatingReinforced" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlatingReinforced" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorStoragePocketSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorStoragePocket" />
+			<property name="Unlocks" value="modArmorStoragePocket" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStoragePocket" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorDoubleStoragePocketSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorDoubleStoragePocket" />
+			<property name="Unlocks" value="modArmorDoubleStoragePocket" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorDoubleStoragePocket" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorTripleStoragePocketSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorTripleStoragePocket" />
+			<property name="Unlocks" value="modArmorTripleStoragePocket" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorTripleStoragePocket" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorMuffledConnectorsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorMuffledConnectors" />
+			<property name="Unlocks" value="modArmorMuffledConnectors" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorMuffledConnectors" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorAdvancedMuffledConnectorsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorAdvancedMuffledConnectors" />
+			<property name="Unlocks" value="modArmorAdvancedMuffledConnectors" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorAdvancedMuffledConnectors" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorImpactBracingSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorImpactBracing" />
+			<property name="Unlocks" value="modArmorImpactBracing" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorImpactBracing" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorBandolierSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorBandolier" />
+			<property name="Unlocks" value="modArmorBandolier" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBandolier" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorWaterPurifierSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorWaterPurifier" />
+			<property name="Unlocks" value="modArmorWaterPurifier" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorWaterPurifier" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modArmorHelmetLightSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modArmorHelmetLight" />
+			<property name="Unlocks" value="modArmorHelmetLight" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorHelmetLight" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modFuelTankSmallSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modFuelTankSmall" />
+			<property name="Unlocks" value="modFuelTankSmall" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFuelTankSmall" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modFuelTankLargeSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modFuelTankLarge" />
+			<property name="Unlocks" value="modFuelTankLarge" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modFuelTankLarge" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modRoboticDroneCargoModSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modRoboticDroneCargoMod" />
+			<property name="Unlocks" value="modRoboticDroneCargoMod" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneCargoMod" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modRoboticDroneMedicModSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modRoboticDroneMedicMod" />
+			<property name="Unlocks" value="modRoboticDroneMedicMod" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneMedicMod" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modRoboticDroneHeadlampModSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modRoboticDroneHeadlampMod" />
+			<property name="Unlocks" value="modRoboticDroneHeadlampMod" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneHeadlampMod" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modRoboticDroneArmorPlatingModSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod" />
+			<property name="Unlocks" value="modRoboticDroneArmorPlatingMod" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneArmorPlatingMod" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modRoboticDroneMoraleBoosterModSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modRoboticDroneMoraleBoosterMod" />
+			<property name="Unlocks" value="modRoboticDroneMoraleBoosterMod" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modRoboticDroneMoraleBoosterMod" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="modVehicleFuelSaverSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modVehicleFuelSaver" />
+			<property name="Unlocks" value="modVehicleFuelSaver" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleFuelSaver" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modVehicleOffRoadHeadlightsSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modVehicleOffRoadHeadlights" />
+			<property name="Unlocks" value="modVehicleOffRoadHeadlights" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleOffRoadHeadlights" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modVehicleSuperChargerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modVehicleSuperCharger" />
+			<property name="Unlocks" value="modVehicleSuperCharger" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleSuperCharger" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modVehicleExpandedSeatSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modVehicleExpandedSeat" />
+			<property name="Unlocks" value="modVehicleExpandedSeat" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleExpandedSeat" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="modVehicleReserveFuelTankSchematic">
+			<property name="Extends" value="schematicNoQualityMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="modVehicleReserveFuelTank" />
+			<property name="Unlocks" value="modVehicleReserveFuelTank" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modVehicleReserveFuelTank" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="schematicNoQualityRecipeMaster">
+			<property name="Extends" value="schematicMaster" />
+			<property name="DescriptionKey" value="schematicNoQualityRecipeGroupDesc" />
+			<property name="CreativeMode" value="None" />
+			<property name="CustomIcon" value="schematicMaster" />
+			<property class="Action0">
+				<property name="Sound_start" value="read_recipe" />
+			</property>
+		</item>
+
+		<item name="ammoGasCanSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="ammoGasCan" />
+			<property name="Unlocks" value="ammoGasCan" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoGasCan" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="resourceOilSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="resourceOil" />
+			<property name="Unlocks" value="resourceOil" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceOil" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drugAntibioticsSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drugAntibiotics" />
+			<property name="Unlocks" value="drugAntibiotics" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugAntibiotics" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drugHerbalAntibioticsSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drugPainkillers" /> <property name="CustomIconTint" value="b0ffb0" />
+			<property name="Unlocks" value="drugHerbalAntibiotics" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugHerbalAntibiotics" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodCanShamSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodCanSham" />
+			<property name="Unlocks" value="foodCanSham" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCanSham" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarBeerSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarBeer" />
+			<property name="Unlocks" value="drinkJarBeer" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeer" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarCoffeeSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarCoffee" />
+			<property name="Unlocks" value="drinkJarCoffee" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarCoffee" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarGoldenRodTeaSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarGoldenRodTea" />
+			<property name="Unlocks" value="drinkJarGoldenRodTea" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGoldenRodTea" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarGrandpasAwesomeSauceSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="1000" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarGrandpasAwesomeSauce" />
+			<property name="Unlocks" value="drinkJarGrandpasAwesomeSauce" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasAwesomeSauce" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarGrandpasLearningElixirSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="1000" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarGrandpasLearningElixir" />
+			<property name="Unlocks" value="drinkJarGrandpasLearningElixir" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasLearningElixir" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarGrandpasMoonshineSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="1000" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarGrandpasMoonshine" />
+			<property name="Unlocks" value="drinkJarGrandpasMoonshine" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarGrandpasMoonshine" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarRedTeaSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkJarRedTea" />
+			<property name="Unlocks" value="drinkJarRedTea" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarRedTea" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="drinkYuccaJuiceSmoothieSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="drinkYuccaJuiceSmoothie" />
+			<property name="Unlocks" value="drinkYuccaJuiceSmoothie" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkYuccaJuiceSmoothie" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodBaconAndEggsSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodBaconAndEggs" />
+			<property name="Unlocks" value="foodBaconAndEggs" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBaconAndEggs" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodBakedPotatoSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodBakedPotato" />
+			<property name="Unlocks" value="foodBakedPotato" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBakedPotato" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodBlueberryPieSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodBlueberryPie" />
+			<property name="Unlocks" value="foodBlueberryPie" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBlueberryPie" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodPumpkinPieSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodPumpkinPie" />
+			<property name="Unlocks" value="foodPumpkinPie" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinPie" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodPumpkinCheesecakeSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodPumpkinCheesecake" />
+			<property name="Unlocks" value="foodPumpkinCheesecake" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinCheesecake" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodPumpkinBreadSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodPumpkinBread" />
+			<property name="Unlocks" value="foodPumpkinBread" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodPumpkinBread" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodGumboStewSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodGumboStew" />
+			<property name="Unlocks" value="foodGumboStew" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGumboStew" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodShepardsPieSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodShepardsPie" />
+			<property name="Unlocks" value="foodShepardsPie" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShepardsPie" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodSpaghettiSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodSpaghetti" />
+			<property name="Unlocks" value="foodSpaghetti" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSpaghetti" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodTunaFishGravyToastSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodTunaFishGravyToast" />
+			<property name="Unlocks" value="foodTunaFishGravyToast" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodTunaFishGravyToast" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodBoiledMeatSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodBoiledMeat" />
+			<property name="Unlocks" value="foodBoiledMeat" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBoiledMeat" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodChiliDogSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodChiliDog" />
+			<property name="Unlocks" value="foodChiliDog" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodChiliDog" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodCornBreadSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodCornBread" />
+			<property name="Unlocks" value="foodCornBread" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornBread" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodCornOnTheCobSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodCornOnTheCob" />
+			<property name="Unlocks" value="foodCornOnTheCob" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodCornOnTheCob" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodFishTacosSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="600" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodFishTacos" />
+			<property name="Unlocks" value="foodFishTacos" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodFishTacos" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodGrilledMeatSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="200" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodGrilledMeat" />
+			<property name="Unlocks" value="foodGrilledMeat" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodGrilledMeat" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodHoboStewSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="600" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodHoboStew" />
+			<property name="Unlocks" value="foodHoboStew" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHoboStew" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodMeatStewSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="400" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodMeatStew" />
+			<property name="Unlocks" value="foodMeatStew" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodMeatStew" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodShamChowderSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="600" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodShamChowder" />
+			<property name="Unlocks" value="foodShamChowder" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodShamChowder" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodSteakAndPotatoSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="400" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodSteakAndPotato" />
+			<property name="Unlocks" value="foodSteakAndPotato" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodSteakAndPotato" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="foodVegetableStewSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="400" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="foodVegetableStew" />
+			<property name="Unlocks" value="foodVegetableStew" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodVegetableStew" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedAloe1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedAloe1" />
+			<property name="Unlocks" value="plantedAloe1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedAloe1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedBlueberry1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="EconomicValue" value="400" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedBlueberry1" />
+			<property name="Unlocks" value="plantedBlueberry1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedBlueberry1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedChrysanthemum1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedChrysanthemum1" />
+			<property name="Unlocks" value="plantedChrysanthemum1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedChrysanthemum1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedCoffee1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedCoffee1" />
+			<property name="Unlocks" value="plantedCoffee1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedCoffee1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedCorn1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedCorn1" />
+			<property name="Unlocks" value="plantedCorn1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedCorn1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedCotton1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedCotton1" />
+			<property name="Unlocks" value="plantedCotton1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedCotton1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedGoldenrod1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedGoldenrod1" />
+			<property name="Unlocks" value="plantedGoldenrod1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedGoldenrod1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedGraceCorn1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedCorn1" /> <property name="CustomIconTint" value="ff9f9f" />
+			<property name="Unlocks" value="plantedGraceCorn1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedGraceCorn1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedHop1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedHop1" />
+			<property name="Unlocks" value="plantedHop1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedHop1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedMushroom1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedMushroom1" />
+			<property name="Unlocks" value="plantedMushroom1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedMushroom1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedPotato1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedPotato1" />
+			<property name="Unlocks" value="plantedPotato1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedPotato1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedYucca1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedYucca1" />
+			<property name="Unlocks" value="plantedYucca1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedYucca1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+
+		<item name="plantedPumpkin1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster" />
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="plantedPumpkin1" />
+			<property name="Unlocks" value="plantedPumpkin1" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedPumpkin1" operation="set" value="1" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
+			</effect_group>
+		</item>
+		
+		<item name="skillBookMaster">
+			<property name="Extends" value="schematicMaster" />
+			<property name="CreativeMode" value="None" />
+			<property name="EconomicValue" value="500" />
+			<property class="Action0">
+				<property name="Class" value="Eat" />
+				<property name="Consume" value="true" />
+				<property name="Delay" value="1.0" />
+				<property name="Use_time" value="..." />
+				<property name="ActionExpBonusMultiplier" value="0" /> <!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
+				<property name="Sound_start" value="recipe_unlocked" />
+			</property>
+		</item>
+		
+		<!--<item name="drinkCanEmpty">
+			<property name="HoldType" value="14"/> 
+			<property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab"/> 
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/> 
+			<property name="Material" value="Mmetal"/> 
+			<property name="Stacknumber" value="500"/> 
+			<property name="EconomicValue" value="5"/> 
+			<property name="CraftingIngredientTime" value="9"/> 
+			<property name="Group" value="Resources"/> 
+		</item> 
+		
+		<item name="drinkCanRiverWater">
+			<property name="HoldType" value="14" />
+			<property name="DisplayType" value="waterDysentery" />
+			<property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Weight" value="5" />
+			<property name="Stacknumber" value="1000" />
+			<property name="DescriptionKey" value="drinkJarRiverWaterDesc" />
+			<property name="EconomicValue" value="20" />
+			<property name="EconomicBundleSize" value="1" />
+			<property name="SellableToTrader" value="false" />
+			<property name="CraftingIngredientTime" value="10" />
+			<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1" />
+			<property name="Use_time" value="..." />
+			<property name="Sound_start" value="player_drinking" />
+			<property name="Create_item" value="drinkCanEmpty" />
+			</property>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="10" />
+				<display_value name="dStaminaRegen" value=".10" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllDysentery0">
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20" />
+				</triggered_effect>
+				<display_value name="dDysenteryRisk" value=".2" />
+			</effect_group>
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire" />
+			</effect_group>
+		</item>
+		
+		<item name="drinkCanBoiledWater">
+			<property name="HoldType" value="14" />
+			<property name="DisplayType" value="waterDysentery" />
+			<property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+			<property name="Material" value="Mmetal" />
+			<property name="Weight" value="5" />
+			<property name="Stacknumber" value="1000" />
+			<property name="EconomicValue" value="40" />
+			<property name="CraftingIngredientTime" value="10" />
+			<property name="DescriptionKey" value="drinkCanBoiledWaterDesc" />
+			<property class="Action0">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1" />
+			<property name="Use_time" value="..." />
+			<property name="Sound_start" value="player_drinking" />
+			<property name="Create_item" value="drinkCanEmpty" />
+			</property>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking" />
+			<effect_group tiered="false">
+				<requirement name="NotHasBuff" buff="buffIsOnFire" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20" />
+				<display_value name="dStaminaRegen" value=".15" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
+			</effect_group>
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire" />
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire" />
+			</effect_group>
+		</item>
+
+		<item name="drinkJarEmpty"> 
+			<property name="HoldType" value="3"/> 
+			<property name="Meshfile" value="@:Other/Items/Food/emptyJarPrefab.prefab"/> 
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/> 
+			<property name="Material" value="Mglass"/> 
+			<property name="Stacknumber" value="125"/> 
+			<property name="Weight" value="10"/> 
+			<property name="EconomicValue" value="6"/> 
+			<property name="CraftingIngredientTime" value="9"/> 
+			<property class="Action1"> 
+			<property name="Class" value="ExchangeItem"/> 
+			<property name="Delay" value="1.0"/> 
+			<property name="Change_item_to" value="drinkJarRiverWater"/> 
+			<property name="Do_block_action" value="deplete1"/> 
+			<property name="Focused_blockname_1" value="water"/> 
+			<property name="Focused_blockname_2" value="waterMoving"/> 
+			<property name="Focused_blockname_3" value="waterStaticBucket"/> 
+			<property name="Focused_blockname_4" value="waterMovingBucket"/> 
+			<property name="Focused_blockname_5" value="terrWaterPOI"/> 
+			<property name="Sound_start" value="bucketfill_water"/> 
+			</property> 
+			<property name="Group" value="Resources"/> 
+		</item> -->
+	</append>
+	
+	<!--<append xpath="/items/item[@name='drinkJarRiverWater']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarBoiledWater']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarPureMineralWater']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarYuccaJuice']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarRedTea']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarCoffee']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarBeer']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>
+	
+	<append xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@class='Action0']">
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</append>-->
+	
+	<setattribute xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='UnlockedBy']" name="value">perkMiner69r,meleeToolIronSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,meleeToolRepairT3NailgunSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='UnlockedBy']" name="value">perkMiner69r,meleeToolIronSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='UnlockedBy']" name="value">meleeToolSteelSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='UnlockedBy']" name="value">perkMiner69r,meleeToolIronSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='UnlockedBy']" name="value">meleeToolSteelSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='UnlockedBy']" name="value">perkMiner69r,meleeToolIronSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='UnlockedBy']" name="value">meleeToolSteelSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='UnlockedBy']" name="value">meleeToolAxeT3ChainsawSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='UnlockedBy']" name="value">meleeToolPickT3AugerSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT1Wrench']/property[@name='UnlockedBy']" name="value">perkSalvageOperations,meleeToolSalvageT1WrenchSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='UnlockedBy']" name="value">meleeToolSalvageT2RatchetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='UnlockedBy']" name="value">meleeToolSalvageT3ImpactDriverSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='UnlockedBy']" name="value">perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='UnlockedBy']" name="value">meleeWpnBladeT3MacheteSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/property[@name='UnlockedBy']" name="value">perkPummelPete,meleeWpnClubT1BaseballBatSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='UnlockedBy']" name="value">perkBatterUpBaseballBats</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='UnlockedBy']" name="value">perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/property[@name='UnlockedBy']" name="value">perkJavelinMaster,meleeWpnSpearT1IronSpearSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='UnlockedBy']" name="value">perkSpearHunter3SteelSpears</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='UnlockedBy']" name="value">perkSkullCrusher,meleeWpnSledgeT1IronSledgehammerSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='UnlockedBy']" name="value">meleeWpnSledgeT3SteelSledgehammerSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='UnlockedBy']" name="value">perkBrawler,meleeWpnKnucklesT1IronKnucklesSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/property[@name='UnlockedBy']" name="value">meleeWpnKnucklesT3SteelKnucklesSchematic</setattribute>
+	<!--<setattribute xpath="/items/item[@name='meleeToolFarmT1IronHoe']/property[@name='UnlockedBy']" name="value">perkLivingOffTheLand,meleeToolFarmT1IronHoeSchematic</setattribute>-->
+	<setattribute xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='UnlockedBy']" name="value">perkGunslinger,gunHandgunT1PistolSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='UnlockedBy']" name="value">gunHandgunT3SMG5Schematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='UnlockedBy']" name="value">gunHandgunT2Magnum44Schematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='UnlockedBy']" name="value">gunHandgunT3DesertVultureSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='UnlockedBy']" name="value">perkBoomstick,gunShotgunT1DoubleBarrelSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='UnlockedBy']" name="value">gunShotgunT2PumpShotgunSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='UnlockedBy']" name="value">gunShotgunT3AutoShotgunSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='UnlockedBy']" name="value">perkDeadEye,gunRifleT1HuntingRifleSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='UnlockedBy']" name="value">gunRifleT2LeverActionRifleSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='UnlockedBy']" name="value">gunRifleT3SniperRifleSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunMGT1AK47']/property[@name='UnlockedBy']" name="value">perkMachineGunner,gunMGT1AK47Schematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='UnlockedBy']" name="value">gunMGT2TacticalARSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunMGT3M60']/property[@name='UnlockedBy']" name="value">perkAutoWeaponsMachineGuns</setattribute>
+	<setattribute xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='UnlockedBy']" name="value">gunExplosivesT3RocketLauncherSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='UnlockedBy']" name="value">perkArchery,gunBowT1WoodenBowSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='UnlockedBy']" name="value">gunBowT3CompoundBowSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='UnlockedBy']" name="value">perkArchery,gunBowT1IronCrossbowSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='UnlockedBy']" name="value">gunBowT3CompoundCrossbowSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='UnlockedBy']" name="value">perkTurrets,gunBotT1JunkSledgeSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='UnlockedBy']" name="value">gunBotT2JunkTurretSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='UnlockedBy']" name="value">gunBotT3JunkDroneSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='ammo9mmBulletHP']/property[@name='UnlockedBy']" name="value">perkPistolPeteHPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammo9mmBulletAP']/property[@name='UnlockedBy']" name="value">perkPistolPeteAPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammo44MagnumBulletHP']/property[@name='UnlockedBy']" name="value">perkEnforcerHPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammo44MagnumBulletAP']/property[@name='UnlockedBy']" name="value">perkEnforcerAPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammo762mmBulletHP']/property[@name='UnlockedBy']" name="value">perkSniperHPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammo762mmBulletAP']/property[@name='UnlockedBy']" name="value">perkSniperAPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammoShotgunSlug']/property[@name='UnlockedBy']" name="value">perkShotgunMessiahSlugs</setattribute>
+	<setattribute xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='UnlockedBy']" name="value">perkShotgunMessiahBreachingSlugs</setattribute>
+	<setattribute xpath="/items/item[@name='ammoJunkTurretShell']/property[@name='UnlockedBy']" name="value">perkTechJunkie4Shells</setattribute>
+	<setattribute xpath="/items/item[@name='ammoJunkTurretAP']/property[@name='UnlockedBy']" name="value">perkTechJunkie3APAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammoRocketHE']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,gunExplosivesT3RocketLauncherSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='ammoGasCan']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,ammoGasCanSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='ammoArrowSteelAP']/property[@name='UnlockedBy']" name="value">perkRangersAPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammoArrowFlaming']/property[@name='UnlockedBy']" name="value">perkRangersFlamingArrows</setattribute>
+	<setattribute xpath="/items/item[@name='ammoArrowExploding']/property[@name='UnlockedBy']" name="value">perkRangersExplodingBolts</setattribute>
+	<setattribute xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/property[@name='UnlockedBy']" name="value">perkRangersAPAmmo</setattribute>
+	<setattribute xpath="/items/item[@name='ammoCrossbowBoltFlaming']/property[@name='UnlockedBy']" name="value">perkRangersFlamingArrows</setattribute>
+	<setattribute xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='UnlockedBy']" name="value">perkRangersExplodingBolts</setattribute>
+	<setattribute xpath="/items/item[@name='ammoGasCanBundle']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey</setattribute>
+	<setattribute xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert</setattribute>
+	<setattribute xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownAmmoPipeBombSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='thrownGrenadeContact']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownGrenadeContactSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='thrownGrenade']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownGrenadeSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='thrownTimedCharge']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,bookGreatHeistTimedCharge</setattribute>
+	<setattribute xpath="/items/item[@name='thrownDynamite']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownDynamiteSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleWheels']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleAnySchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleMinibikeChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMinibikeChassisSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleMinibikeHandlebars']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMinibikeHandlebarsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleBicycleChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleBicycleChassisSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleBicycleHandlebars']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleBicycleHandlebarsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleMotorcycleChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMotorcycleChassisSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleMotorcycleHandlebars']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMotorcycleHandlebarsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicle4x4TruckChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicle4x4TruckChassisSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicle4x4TruckAccessories']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicle4x4TruckAccessoriesSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleGyroCopterChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleGyroCopterChassisSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='vehicleGyroCopterAccessories']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleGyroCopterAccessoriesSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='armorLeatherMaster']/property[@name='UnlockedBy']" name="value">perkLightArmor,armorLeatherSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='armorMilitaryMaster']/property[@name='UnlockedBy']" name="value">armorMilitarySetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='armorMilitaryStealthBoots']/property[@name='UnlockedBy']" name="value">perkUrbanCombatLanding</setattribute>
+	<setattribute xpath="/items/item[@name='armorIronMaster']/property[@name='UnlockedBy']" name="value">perkHeavyArmor,armorIronSetSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='armorSteelMaster']/property[@name='UnlockedBy']" name="value">armorSteelSetSchematic</setattribute>
+	<!--<setattribute xpath="/items/item[@name='armorMiningHelmet']/property[@name='UnlockedBy']" name="value">perkArtOfMiningLantern</setattribute>-->
+	<setattribute xpath="/items/item[@name='armorFirefightersHelmet']/property[@name='UnlockedBy']" name="value">perkFiremansAlmanacEquipment</setattribute>
+	<!--<setattribute xpath="/items/item[@name='apparelBallCap']/property[@name='UnlockedBy']" name="value">perkBatterUpGear</setattribute>-->
+	<setattribute xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalFirstAidBandageSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalFirstAidKitSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='medicalPlasterCast']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalPlasterCastSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='UnlockedBy']" name="value">drugHerbalAntibioticsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drugAntibiotics']/property[@name='UnlockedBy']" name="value">perkPhysician,drugAntibioticsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drugSteroids']/property[@name='UnlockedBy']" name="value">perkPhysician</setattribute>
+	<setattribute xpath="/items/item[@name='drugRecog']/property[@name='UnlockedBy']" name="value">perkPhysician</setattribute>
+	<setattribute xpath="/items/item[@name='foodCornOnTheCob']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodCornOnTheCobSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodCornBread']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodCornBreadSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodGrilledMeat']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodGrilledMeatSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodBoiledMeat']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodBoiledMeatSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodMeatStew']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodMeatStewSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodSteakAndPotato']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodSteakAndPotatoSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodShamChowder']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodShamChowderSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodHoboStew']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodHoboStewSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodFishTacos']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodFishTacosSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodChiliDog']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodChiliDogSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodBakedPotato']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodBakedPotatoSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodBlueberryPie']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodBlueberryPieSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodPumpkinPie']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodPumpkinPieSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodPumpkinCheesecakeSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodPumpkinBread']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodPumpkinBreadSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodGumboStew']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodGumboStewSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodShepardsPie']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodShepardsPieSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodSpaghetti']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodSpaghettiSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodTunaFishGravyToast']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodTunaFishGravyToastSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodBaconAndEggs']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodBaconAndEggsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodVegetableStew']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodVegetableStewSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='foodVegetableStew']/property[@name='UnlockedBy']" name="value">perkMasterChef,foodVegetableStewSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='UnlockedBy']" name="value">perkWasteTreasuresWater</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarGoldenRodTeaSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarRedTea']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarRedTeaSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkYuccaJuiceSmoothieSchematic</setattribute>
+	<!--<setattribute xpath="/items/item[@name='drinkYuccaJuice']/property[@name='UnlockedBy']" name="value">perkMasterChef</setattribute>-->
+	<setattribute xpath="/items/item[@name='drinkJarCoffee']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarCoffeeSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarBeer']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarBeerSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarGrandpasMoonshineSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarGrandpasAwesomeSauceSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='UnlockedBy']" name="value">perkMasterChef,drinkJarGrandpasLearningElixirSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,resourceMilitaryFiberSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='resourceRocketTip']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,gunExplosivesT3RocketLauncherSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='resourceRocketCasing']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,gunExplosivesT3RocketLauncherSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='carBattery']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey</setattribute>
+	<setattribute xpath="/items/item[@name='toolBellows']/property[@name='UnlockedBy']" name="value">toolBellowsSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='toolAnvil']/property[@name='UnlockedBy']" name="value">toolAnvilSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='toolForgeCrucible']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,toolForgeCrucibleSchematic</setattribute>
+	<setattribute xpath="/items/item[@name='resourceLockPick']/property[@name='UnlockedBy']" name="value">perkGreatHeistComplete,perkLockPicking</setattribute>
+	<setattribute xpath="/items/item[@name='resourceOil']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,resourceOilSchematic</setattribute>
+	
+	<setattribute xpath="/items/item[@name='questRewardFarmT1Bundle']/property[@class='Action0']/property[@name='Create_item']" name="value">farmPlotBlockVariantHelper</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardFarmT1Bundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardFarmT2Bundle']/property[@class='Action0']/property[@name='Create_item']" name="value">farmPlotBlockVariantHelper</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardFarmT2Bundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardFarmT3Bundle']/property[@class='Action0']/property[@name='Create_item']" name="value">farmPlotBlockVariantHelper</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardFarmT3Bundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3</setattribute>
+	
+	<setattribute xpath="/items/item[@name='questRewardT0HandgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT0PipePistol,ammo9mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0HandgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0RifleBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunRifleT0PipeRifle,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0RifleBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunShotgunT0PipeShotgun,ammoShotgunShell</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0ShotgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunMGT0PipeMachineGun,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0MachineGunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1HandgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT1Pistol,ammo9mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1HandgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunShotgunT1DoubleBarrel,ammoShotgunShell</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1ShotgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1RifleBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunRifleT1HuntingRifle,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1RifleBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunMGT1AK47,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1MachineGunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HandgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT2Magnum44,ammo44MagnumBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HandgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunShotgunT2PumpShotgun,ammoShotgunShell</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2ShotgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2RifleBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunRifleT2LeverActionRifle,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2RifleBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunMGT2TacticalAR,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2MachineGunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3HandgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT3DesertVulture,ammo44MagnumBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3HandgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3SMGBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT3SMG5,ammo9mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3SMGBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunShotgunT3AutoShotgun,ammoShotgunShell</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3ShotgunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3RifleBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunRifleT3SniperRifle,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3RifleBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunMGT3M60,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3MachineGunBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3-6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3HandgunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT3DesertVulture,ammo44MagnumBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3HandgunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3SMGLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT3SMG5,ammo9mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3SMGLegendaryBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3ShotgunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunShotgunT3AutoShotgun,ammoShotgunShell</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3ShotgunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3RifleLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunRifleT3SniperRifle,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3RifleLegendaryBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3MachineGunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunMGT3M60,ammo762mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3MachineGunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">6,100</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0LightArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorClothHat,armorClothGloves,armorClothJacket,armorClothPants,armorClothBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0LightArmorBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,3,3,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorScrapHelmet,armorScrapGloves,armorScrapChest,armorScrapLegs,armorScrapBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,3,3,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorClothHat,armorClothGloves,armorClothJacket,armorClothPants,armorClothBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5-6,5-6,5-6,5-6,5-6</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorScrapHelmet,armorScrapGloves,armorScrapChest,armorScrapLegs,armorScrapBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT0HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5-6,5-6,5-6,5-6,5-6</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1LightArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorLeatherHood,armorLeatherGloves,armorLeatherChest,armorLeatherPants,armorLeatherBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1LightArmorBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,3,3,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorIronHelmet,armorIronGloves,armorIronChest,armorIronLegs,armorIronBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,3,3,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorLeatherHood,armorLeatherGloves,armorLeatherChest,armorLeatherPants,armorLeatherBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5-6,5-6,5-6,5-6,5-6</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorIronHelmet,armorIronGloves,armorIronChest,armorIronLegs,armorIronBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5-6,5-6,5-6,5-6,5-6</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2LightArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorMilitaryHelmet,modArmorHelmetLight,armorMilitaryGloves,armorMilitaryVest,armorMilitaryLegs,armorMilitaryBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2LightArmorBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,1,3,3,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorSteelHelmet,modArmorHelmetLight,armorSteelGloves,armorSteelChest,armorSteelLegs,armorSteelBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HeavyArmorBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,1,3,3,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorMilitaryHelmet,modArmorHelmetLight,armorMilitaryGloves,armorMilitaryVest,armorMilitaryLegs,armorMilitaryBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2LightArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5-6,1,5-6,5-6,5-6,5-6</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">armorSteelHelmet,modArmorHelmetLight,armorSteelGloves,armorSteelChest,armorSteelLegs,armorSteelBoots</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2HeavyArmorBonusBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5-6,1,5-6,5-6,5-6,5-6</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1TrapsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">trapSpikesWoodDmg0,barbedFence,mineCandyTin,mineCookingPot</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT1TrapsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5,5,5,5</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2TrapsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">trapSpikesIronDmg0,barbedFence,mineHubcap,mineAirFilter</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2TrapsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5,5,5,5</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardDartTrapBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">dartTrap,ammoDartIron,ammoDartIron,ammoDartIron,pressureplate,switch</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardDartTrapBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,500,500,500,3,3</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardBladeTrapBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">bladeTrap,switch,electricwirerelay</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardBladeTrapBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">10,5,5</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardShotgunTurretBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">shotgunTurret,ammoShotgunShell,ammoShotgunShell</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardShotgunTurretBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,150,150</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardAutoTurretBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">autoTurret,ammo9mmBulletBall,ammo9mmBulletBall</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardAutoTurretBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,300,300</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardSecuritySystemBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">speaker,motionsensor,tripwirepost,electricwirerelay,meleeToolWireTool</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardSecuritySystemBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">5,5,10,10,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardGeneratorBankBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">generatorbank,smallEngine,ammoGasCan,meleeToolWireTool</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardGeneratorBankBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,1,2000,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardBatteryBankBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">batterybank,carBattery,carBattery,switch,electricwirerelay,generatorbank,pressureplate,ceilingLight01_player,meleeToolWireTool</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardBatteryBankBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,2-6,2-6,2,10,1,5,10,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardSolarBankBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">solarbank,solarCell,solarCell,solarCell,electricwirerelay,meleeToolWireTool</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardSolarBankBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,1-4,1-4,1-4,10,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@class='Action0']/property[@name='Random_item']" name="value">modGunBarrelExtender,modGunCrippleEm,modGunBowArrowRest,modGunLaserSight,modGunReflexSight,modGunRetractingStock,modGunScopeMedium,modGunSoundSuppressorSilencer,modGunTriggerGroupBurst3,modGunShotgunTubeExtender</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2RangedModsBundle']/property[@class='Action0']/property[@name='Random_item_count']" name="value">1,1,1,1,1,1,1,1,1,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2FoodBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">drinkJarPureMineralWater</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT2FoodBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3FoodBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">drinkJarPureMineralWater</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT3FoodBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT4FoodBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">drinkJarPureMineralWater</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardT4FoodBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardMinibikePartsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">vehicleWheels,questRewardVehiclePartsBundle</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardMinibikePartsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardMotorcyclePartsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">vehicleWheels,questRewardVehiclePartsBundle</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardMotorcyclePartsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,1</setattribute>
+	<setattribute xpath="/items/item[@name='questReward4x4PartsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">vehicleWheels,questRewardVehiclePartsBundle</setattribute>
+	<setattribute xpath="/items/item[@name='questReward4x4PartsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">4,1</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardGyrocopterPartsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">vehicleWheels,questRewardVehiclePartsBundle</setattribute>
+	<setattribute xpath="/items/item[@name='questRewardGyrocopterPartsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,1</setattribute>
+	
+	<!-- Yucca Juice wasn't locked in A20. -->
+	<remove xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='UnlockedBy']"></remove>
+	
+	<!-- Compatibility Fixes -->
+	<!-- <setattribute xpath="/items/item[@name='resourceWaterFilter']/property[@name='UnlockedBy']" name="value">perkMasterChef,resourceWaterFilterSchematic</setattribute> -->
+</items>

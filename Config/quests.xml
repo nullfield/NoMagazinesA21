@@ -1,0 +1,5 @@
+<quests>
+	<remove xpath="//reward[@type='LootItem' and @id='groupQuestT1SkillMagazineBundle']"></remove>
+	<setattribute xpath="//reward[@type='LootItem' and @id='groupQuestAmmo,groupQuestResources,groupQuestMods,groupQuestT1SkillMagazineBundle']" name="id">groupQuestAmmo,groupQuestResources,groupQuestMods</setattribute>
+	<setattribute xpath="//reward[@type='LootItem' and @id='groupQuestSchematics,groupQuestT1SkillMagazineBundle']" name="id">groupQuestSchematics</setattribute>
+</quests>

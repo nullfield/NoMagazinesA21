@@ -1,0 +1,3 @@
+<recipes>
+	<setattribute xpath="//recipe[@name='drinkJarYuccaJuice']" name="tags">perkMasterChef</setattribute>
+</recipes>
