@@ -26,6 +26,7 @@
 	<setattribute xpath="/blocks/block[@name='industrialLight02_player']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,generatorbankSchematic</setattribute>
 	<setattribute xpath="/blocks/block[@name='ceilingLight07_player']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,generatorbankSchematic</setattribute>
 	<setattribute xpath="/blocks/block[@name='vaultDoor01_Powered']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,poweredDoorsSchematic</setattribute>
+	<setattribute xpath="/blocks/block[@name='vaultDoor01Double_Powered']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,poweredDoorsSchematic</setattribute>
 	<setattribute xpath="/blocks/block[@name='ironGarageDoor_PoweredWhite']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,poweredDoorsSchematic</setattribute>
 	<setattribute xpath="/blocks/block[@name='woodenGarageDoor3x3_PoweredWhite']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,poweredDoorsSchematic</setattribute>
 	<setattribute xpath="/blocks/block[@name='woodenGarageDoor4x3_PoweredWhite']/property[@name='UnlockedBy']" name="value">perkAdvancedEngineering,poweredDoorsSchematic</setattribute>
