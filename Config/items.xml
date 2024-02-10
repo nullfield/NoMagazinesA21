@@ -2509,7 +2509,7 @@
 	<setattribute xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownAmmoPipeBombSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='thrownGrenadeContact']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownGrenadeContactSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='thrownGrenade']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownGrenadeSchematic</setattribute>
-	<setattribute xpath="/items/item[@name='thrownTimedCharge']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,bookGreatHeistTimedCharge</setattribute>
+	<setattribute xpath="/items/item[@name='thrownTimedCharge']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,perkGreatHeistGoldRush</setattribute>
 	<setattribute xpath="/items/item[@name='thrownDynamite']/property[@name='UnlockedBy']" name="value">perkDemolitionsExpert,thrownDynamiteSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='vehicleWheels']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleAnySchematic</setattribute>
 	<setattribute xpath="/items/item[@name='vehicleMinibikeChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMinibikeChassisSchematic</setattribute>
@@ -2527,7 +2527,7 @@
 	<setattribute xpath="/items/item[@name='armorMilitaryStealthBoots']/property[@name='UnlockedBy']" name="value">perkUrbanCombatLanding</setattribute>
 	<setattribute xpath="/items/item[@name='armorIronMaster']/property[@name='UnlockedBy']" name="value">perkHeavyArmor,armorIronSetSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='armorSteelMaster']/property[@name='UnlockedBy']" name="value">armorSteelSetSchematic</setattribute>
-	<!--<setattribute xpath="/items/item[@name='armorMiningHelmet']/property[@name='UnlockedBy']" name="value">perkArtOfMiningLantern</setattribute>-->
+	<setattribute xpath="/items/item[@name='armorMiningHelmet']/property[@name='UnlockedBy']" name="value">perkArtOfMiningDamage,perkAdvancedEngineering</setattribute>
 	<setattribute xpath="/items/item[@name='armorFirefightersHelmet']/property[@name='UnlockedBy']" name="value">perkFiremansAlmanacEquipment</setattribute>
 	<setattribute xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalFirstAidBandageSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalFirstAidKitSchematic</setattribute>

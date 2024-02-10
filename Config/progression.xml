@@ -61,10 +61,6 @@
 	<append xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group[1]">
 		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMiner69r" />
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolRepairT1ClawHammer,meleeToolAxeT1IronFireaxe,meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel" />
-		<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolRepairT1ClawHammer" />
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolAxeT1IronFireaxe" />
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolPickT1IronPickaxe" />
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolShovelT1IronShovel" />-->
 	</append>
 	
 	<append xpath="/progression/perks/perk[@name='perkBrawler']/effect_group[1]">
@@ -134,6 +130,14 @@
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="ammoGasCanBundle,vehicle4x4TruckChassis,vehicle4x4TruckAccessories" />
 		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="vehicleGyroCopterChassis,vehicleGyroCopterAccessories" />
 	</append>
+
+    <append xpath="//book[@name='perkGreatHeistGoldRush']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="thrownTimedCharge" />
+    </append>
+
+    <append xpath="//book[@name='perkArtOfMiningDamage']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="armorMiningHelmet,modArmorHelmetLight,lanternLight_player" />
+    </append>
 	
 	<remove xpath="/progression/attributes/attribute[@name='attCrafting']"></remove>
 	<remove xpath="/progression/crafting_skills/crafting_skill"></remove>
