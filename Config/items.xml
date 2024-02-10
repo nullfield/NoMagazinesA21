@@ -2456,10 +2456,10 @@
 	<setattribute xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='UnlockedBy']" name="value">perkDeepCuts,meleeWpnBladeT1HuntingKnifeSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='UnlockedBy']" name="value">meleeWpnBladeT3MacheteSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/property[@name='UnlockedBy']" name="value">perkPummelPete,meleeWpnClubT1BaseballBatSchematic</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='UnlockedBy']" name="value">perkBatterUpBaseballBats</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='UnlockedBy']" name="value">perkBatterUpFoulBalls</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='UnlockedBy']" name="value">perkElectrocutioner,meleeWpnBatonT2StunBatonSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/property[@name='UnlockedBy']" name="value">perkJavelinMaster,meleeWpnSpearT1IronSpearSchematic</setattribute>
-	<setattribute xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='UnlockedBy']" name="value">perkSpearHunter3SteelSpears</setattribute>
+	<setattribute xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='UnlockedBy']" name="value">perkSpearHunter3Bleed</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='UnlockedBy']" name="value">perkSkullCrusher,meleeWpnSledgeT1IronSledgehammerSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='UnlockedBy']" name="value">meleeWpnSledgeT3SteelSledgehammerSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='UnlockedBy']" name="value">perkBrawler,meleeWpnKnucklesT1IronKnucklesSchematic</setattribute>
@@ -2529,7 +2529,6 @@
 	<setattribute xpath="/items/item[@name='armorSteelMaster']/property[@name='UnlockedBy']" name="value">armorSteelSetSchematic</setattribute>
 	<!--<setattribute xpath="/items/item[@name='armorMiningHelmet']/property[@name='UnlockedBy']" name="value">perkArtOfMiningLantern</setattribute>-->
 	<setattribute xpath="/items/item[@name='armorFirefightersHelmet']/property[@name='UnlockedBy']" name="value">perkFiremansAlmanacEquipment</setattribute>
-	<!--<setattribute xpath="/items/item[@name='apparelBallCap']/property[@name='UnlockedBy']" name="value">perkBatterUpGear</setattribute>-->
 	<setattribute xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalFirstAidBandageSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='medicalFirstAidKit']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalFirstAidKitSchematic</setattribute>
 	<setattribute xpath="/items/item[@name='medicalPlasterCast']/property[@name='UnlockedBy']" name="value">perkPhysician,medicalPlasterCastSchematic</setattribute>
@@ -2693,7 +2692,4 @@
 	
 	<!-- Yucca Juice wasn't locked in A20. -->
 	<remove xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='UnlockedBy']"></remove>
-	
-	<!-- Compatibility Fixes -->
-	<!-- <setattribute xpath="/items/item[@name='resourceWaterFilter']/property[@name='UnlockedBy']" name="value">perkMasterChef,resourceWaterFilterSchematic</setattribute> -->
 </items>
