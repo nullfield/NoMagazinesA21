@@ -39,7 +39,7 @@
 			<property name="Weight" value="5" />
 			<property name="Stacknumber" value="5" /> <!-- STK book -->
 			<property name="EconomicValue" value="800" />
-			<property name="Group" value="Books,Mods,SchematicsOnly" />
+			<property name="Group" value="Books,TCReading,SchematicsOnly" />
 			<property class="Action0">
 				<property name="Class" value="Eat" />
 				<property name="Delay" value="1.0" />
