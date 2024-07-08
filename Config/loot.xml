@@ -1,45 +1,34 @@
 <loot>
-	<remove xpath="/lootcontainers/lootgroup[@name='skillMagazines']"></remove>
-	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']"></remove>
-	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll']"></remove>
-	<remove xpath="/lootcontainers/lootgroup[@name='weaponSkillMagazinesOnly']"></remove>
-	<remove xpath="/lootcontainers/lootgroup[@name='groupQuestT1SkillMagazineBundle']"></remove>
-	
-	<remove xpath="/lootcontainers/lootgroup/item[@group='skillMagazines']"></remove>
-	<!--<remove xpath="/lootcontainers/lootgroup/item[@group='groupQuestRewardSkillMagazinesAll01']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@group='groupQuestRewardSkillMagazinesAll']"></remove>-->
-	<remove xpath="/lootcontainers/lootgroup/item[@group='weaponSkillMagazinesOnly']"></remove>
-	<!--<remove xpath="/lootcontainers/lootgroup/item[@group='groupQuestT1SkillMagazineBundle']"></remove>-->
-	
-	<remove xpath="/lootcontainers/lootgroup/item[@name='questRewardT1SkillMagazineBundle']"></remove>
-	
-	<remove xpath="/lootcontainers/lootgroup/item[@name='vehiclesSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='electricianSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='trapsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='harvestingToolsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='repairToolsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='salvageToolsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='sledgehammersSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='workstationSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='medicalSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='foodSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='seedSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='roboticsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='bowsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='armorSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='spearsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='bladesSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='clubsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='handgunsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='shotgunsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='riflesSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='machineGunsSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='explosivesSkillMagazine']"></remove>
-	<remove xpath="/lootcontainers/lootgroup/item[@name='knucklesSkillMagazine']"></remove>
-	
-	<!--<remove xpath="/lootcontainers/lootcontainer/item[@group='skillMagazines']"></remove>-->
-	<remove xpath="/lootcontainers/lootcontainer/item[@group='groupQuestRewardSkillMagazinesAll']"></remove>
-	<!--<remove xpath="/lootcontainers/lootcontainer/item[@group='groupQuestRewardSkillMagazinesAll01']"></remove>
-	<remove xpath="/lootcontainers/lootcontainer/item[@group='weaponSkillMagazinesOnly']"></remove>
-	<remove xpath="/lootcontainers/lootcontainer/item[@group='groupQuestT1SkillMagazineBundle']"></remove>-->
+    <remove xpath="/lootcontainers/lootgroup[@name='skillMagazines']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='weaponSkillMagazinesOnly']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestT1SkillMagazineBundle']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@group='skillMagazines']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@group='weaponSkillMagazinesOnly']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='questRewardT1SkillMagazineBundle']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='vehiclesSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='electricianSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='trapsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='harvestingToolsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='repairToolsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='salvageToolsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='sledgehammersSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='workstationSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='medicalSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='foodSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='seedSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='roboticsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='bowsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='armorSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='spearsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='bladesSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='clubsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='handgunsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='shotgunsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='riflesSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='machineGunsSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='explosivesSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@name='knucklesSkillMagazine']"></remove>
+    <remove xpath="/lootcontainers/lootcontainer/item[@group='groupQuestRewardSkillMagazinesAll']"></remove>
 </loot>

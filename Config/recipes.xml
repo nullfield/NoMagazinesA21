@@ -1,6 +1,5 @@
 <recipes>
-	<setattribute xpath="//recipe[@name='drinkJarYuccaJuice']" name="tags">perkMasterChef</setattribute>
+    <setattribute xpath="//recipe[@name='drinkJarYuccaJuice']" name="tags">perkMasterChef</setattribute>
     <setattribute xpath="//recipe[@tags='craftingHarvestingTools']" name="tags">perkMiner69r</setattribute>
     <setattribute xpath="//recipe[@tags='learnable,craftingHarvestingTools']" name="tags">learnable,perkMiner69r</setattribute>
-    <setattribute xpath="//recipe[@name='armorMiningHelmet']" name="tags">learnable,perkLightArmor</setattribute>
 </recipes>

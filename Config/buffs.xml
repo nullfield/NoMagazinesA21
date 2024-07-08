@@ -1,0 +1,50 @@
+<buffs>
+    <append xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group">
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffGrantPrimitiveArmor" />
+    </append>
+    <append xpath="/buffs">
+        <buff name="buffGrantPrimitiveArmor" name_key="buffGrantPrimitiveArmorName" description_key="buffGrantPrimitiveArmorDesc" hidden="true" remove_on_death="false">
+            <stack_type value="ignore" />
+            <effect_group>
+                <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="0"/>
+                <requirement name="PlayerLevel" operation="GTE" value="1" desc_key="NA"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AddProgressionLevel" progression_name="perkPrimitiveArmor" level="1">
+                    <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="0"/>
+                </triggered_effect>
+            </effect_group>
+            <effect_group>
+                <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="1"/>
+                <requirement name="PlayerLevel" operation="GTE" value="4" desc_key="NA"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AddProgressionLevel" progression_name="perkPrimitiveArmor" level="1">
+                    <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="1"/>
+                </triggered_effect>
+            </effect_group>
+            <effect_group>
+                <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="2"/>
+                <requirement name="PlayerLevel" operation="GTE" value="6" desc_key="NA"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AddProgressionLevel" progression_name="perkPrimitiveArmor" level="1">
+                    <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="2"/>
+                </triggered_effect>
+            </effect_group>
+            <effect_group>
+                <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="3"/>
+                <requirement name="PlayerLevel" operation="GTE" value="8" desc_key="NA"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AddProgressionLevel" progression_name="perkPrimitiveArmor" level="1">
+                    <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="3"/>
+                </triggered_effect>
+            </effect_group>
+            <effect_group>
+                <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="4"/>
+                <requirement name="PlayerLevel" operation="GTE" value="10" desc_key="NA"/>
+                <triggered_effect trigger="onSelfBuffUpdate" action="AddProgressionLevel" progression_name="perkPrimitiveArmor" level="1">
+                    <requirement name="ProgressionLevel" progression_name="perkPrimitiveArmor" operation="LTE" value="4"/>
+                </triggered_effect>
+            </effect_group>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffGrantPrimitiveArmorName">
+                    <requirement name="PlayerLevel" operation="GT" value="10" />
+                </triggered_effect>
+            </effect_group>
+        </buff>
+    </append>
+</buffs>

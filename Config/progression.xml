@@ -1,135 +1,250 @@
 <progression>
-	<append xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunRifleT1HuntingRifle" />
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDeadEye" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']">
-		<effect_group>
-			<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDemolitionsExpert" />
 
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="thrownAmmoPipeBomb,mineCookingPot,rScrapIronPlateMine" />
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="thrownDynamite,mineHubcap" />
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="thrownGrenade,resourceGunPowderBundle" />
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="ammoRocketHE,ammoRocketFrag,resourceRocketTip,resourceRocketCasing" />
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="thrownGrenadeContact,thrownTimedCharge,mineAirFilter" />
-		</effect_group>
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkJavelinMaster" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnSpearT1IronSpear" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="resourceLockPick" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkSalvageOperations" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolSalvageT1Wrench" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkBoomstick" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunShotgunT1DoubleBarrel" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkPummelPete" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnClubT1BaseballBat" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkSkullCrusher" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnSledgeT1IronSledgehammer" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,4" value="1,4" tags="perkHeavyArmor" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorIronHelmet,armorIronChest,armorIronGloves,armorIronLegs,armorIronBoots" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="foodBaconAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="foodShamChowder,foodHoboStew,foodFishTacos,drinkYuccaJuiceSmoothie,foodChiliDog,drinkJarBeer" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,3" value="1" tags="foodGumboStew,foodShepardsPie,foodSpaghetti,foodTunaFishGravyToast" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,3" value="1" tags="drinkJarGrandpasMoonshine,drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMiner69r" />
+    <append xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunRifleT1HuntingRifle" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkDeadEye" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']">
+        <effect_group>
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkDemolitionsExpert" />
+
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="thrownAmmoPipeBomb,mineCookingPot,rScrapIronPlateMine" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="thrownDynamite,mineHubcap" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="thrownGrenade,resourceGunPowderBundle" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="ammoRocketHE,ammoRocketFrag,resourceRocketTip,resourceRocketCasing" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="thrownGrenadeContact,thrownTimedCharge,mineAirFilter" />
+        </effect_group>
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkJavelinMaster" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnSpearT1IronSpear" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="resourceLockPick" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkSalvageOperations" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolSalvageT1Wrench" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkBoomstick" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunShotgunT1DoubleBarrel" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkPummelPete" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnClubT1BaseballBat" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkSkullCrusher" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnSledgeT1IronSledgehammer" />
+    </append>
+
+    <insertBefore xpath="/progression/perks/perk[@name='perkMediumArmor']">
+        <perk name="perkPrimitiveArmor" min_level="0" max_level="5" base_skill_point_cost="0" cost_multiplier_per_level="0" parent="skillPrimitiveCrafting" name_key="perkPrimitiveArmorName" desc_key="perkPrimitiveArmorDesc" icon="ui_game_symbol_light_armor2">
+            <level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="NA"/></level_requirements>
+            <level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="4" desc_key="NA"/></level_requirements>
+            <level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="NA"/></level_requirements>
+            <level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="8" desc_key="NA"/></level_requirements>
+            <level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="NA"/></level_requirements>
+            <effect_group>
+                <passive_effect name="DegradationPerUse" operation="perc_add" level="0,5" value="0,-.66" tags="lightArmorDeg" />
+                <passive_effect name="CraftingTier" operation="base_set" level="1,2,3,4,5" value="2,3,4,5,6" tags="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+                <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+                <effect_description level="1" desc_key="perkPrimitiveArmorRank1Desc" long_desc_key="perkPrimitiveArmorRank1LongDesc" />
+                <effect_description level="2" desc_key="perkPrimitiveArmorRank2Desc" long_desc_key="perkPrimitiveArmorRank2LongDesc" />
+                <effect_description level="3" desc_key="perkPrimitiveArmorRank3Desc" long_desc_key="perkPrimitiveArmorRank3LongDesc" />
+                <effect_description level="4" desc_key="perkPrimitiveArmorRank4Desc" long_desc_key="perkPrimitiveArmorRank4LongDesc" />
+                <effect_description level="5" desc_key="perkPrimitiveArmorRank5Desc" long_desc_key="perkPrimitiveArmorRank5LongDesc"/>
+            </effect_group>
+        </perk>
+    </insertBefore>
+
+    <insertBefore xpath="/progression/perks/perk[@name='perkMediumArmor']">
+        <perk name="perkLightArmor" max_level="5" parent="skillAgilityAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
+          <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01" /></level_requirements>
+          <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03" /></level_requirements>
+          <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05" /></level_requirements>
+          <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="7" desc_key="reqAgilityLevel07" /></level_requirements>
+          <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10" /></level_requirements>
+          <effect_group>
+            <!-- Stamina/mobility are handled in buffStatusCheck02 -->
+            <passive_effect name="DegradationPerUse" operation="perc_add" level="0,5" value="0,-.66" tags="lightArmorDeg" />
+
+            <!-- Increase the chance to find armor with each perk rank -->
+            <passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="armorLightSkill" />
+            <!-- Increase the chance to find Needle & Thread books until each book is read -->
+            <passive_effect name="LootProb" operation="perc_add" level="1,5" value="2,10" tags="needleProb">
+              <requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadComplete" operation="LT" value="1" />
+            </passive_effect>
+            <!-- When all Needle & Thread books have been read, set the probability bonus of finding them to 0 -->
+            <passive_effect name="LootProb" operation="perc_add" level="1,5" value="0,0" tags="needleProb">
+              <requirement name="ProgressionLevel" progression_name="perkNeedleAndThreadComplete" operation="Equals" value="1" />
+            </passive_effect>
+
+            <!--<passive_effect name="CraftingTier" operation="base_add" level="1,5" value="1,5" tags="perkLightArmor" />-->
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorLightMaster" />
+            <passive_effect name="CraftingTier" operation="base_set" level="1,2,3,4,5" value="2,3,4,5,6" tags="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorLumberjackHelmet,armorLumberjackOutfit,armorLumberjackGloves,armorLumberjackBoots" />
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorPreacherHelmet,armorPreacherOutfit,armorPreacherGloves,armorPreacherBoots" />
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorRogueHelmet,armorRogueOutfit,armorRogueGloves,armorRogueBoots" />
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorAthleticHelmet,armorAthleticOutfit,armorAthleticGloves,armorAthleticBoots" />
+            <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorEnforcerHelmet,armorEnforcerOutfit,armorEnforcerGloves,armorEnforcerBoots" />
+
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorLightMaster" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorLumberjackHelmet,armorLumberjackOutfit,armorLumberjackGloves,armorLumberjackBoots" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorPreacherHelmet,armorPreacherOutfit,armorPreacherGloves,armorPreacherBoots" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorRogueHelmet,armorRogueOutfit,armorRogueGloves,armorRogueBoots" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorAthleticHelmet,armorAthleticOutfit,armorAthleticGloves,armorAthleticBoots" />
+            <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorEnforcerHelmet,armorEnforcerOutfit,armorEnforcerGloves,armorEnforcerBoots" />
+            <effect_description level="1" desc_key="perkLightArmorRank1Desc" long_desc_key="perkLightArmorRank1LongDesc" />
+            <effect_description level="2" desc_key="perkLightArmorRank2Desc" long_desc_key="perkLightArmorRank2LongDesc" />
+            <effect_description level="3" desc_key="perkLightArmorRank3Desc" long_desc_key="perkLightArmorRank3LongDesc" />
+            <effect_description level="4" desc_key="perkLightArmorRank4Desc" long_desc_key="perkLightArmorRank4LongDesc" />
+            <effect_description level="5" desc_key="perkLightArmorRank5Desc" long_desc_key="perkLightArmorRank5LongDesc"/>
+          </effect_group>
+        </perk>
+    </insertBefore>
+
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']" name="max_level">5</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect[@name='DegradationPerUse']" name="level">0,5</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect[@name='LootProb']" name="level">1,5</setattribute>
+
+    <insertBefore xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group[1]">
+        <level_requirements level="5">
+            <requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10" />
+        </level_requirements>
+    </insertBefore>
+
+    <append xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group[1]">
+        <!--<passive_effect name="CraftingTier" operation="base_add" level="1,5" value="1,5" tags="perkMediumArmor" />-->
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorMediumMaster" />
+        <passive_effect name="CraftingTier" operation="base_set" level="1,2,3,4,5" value="2,3,4,5,6" tags="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorFarmerHelmet,armorFarmerOutfit,armorFarmerGloves,armorFarmerBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorBikerHelmet,armorBikerOutfit,armorBikerGloves,armorBikerBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorScavengerHelmet,armorScavengerOutfit,armorScavengerGloves,armorScavengerBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorRangerHelmet,armorRangerOutfit,armorRangerGloves,armorRangerBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorCommandoHelmet,armorCommandoOutfit,armorCommandoGloves,armorCommandoBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots" />
+
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorMediumMaster" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorFarmerHelmet,armorFarmerOutfit,armorFarmerGloves,armorFarmerBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorBikerHelmet,armorBikerOutfit,armorBikerGloves,armorBikerBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorScavengerHelmet,armorScavengerOutfit,armorScavengerGloves,armorScavengerBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorRangerHelmet,armorRangerOutfit,armorRangerGloves,armorRangerBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorCommandoHelmet,armorCommandoOutfit,armorCommandoGloves,armorCommandoBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots" />
+        <effect_description level="5" desc_key="perkMediumArmorRank5Desc" long_desc_key="perkMediumArmorRank5LongDesc"/>
+    </append>
+
+    <setattribute xpath="/progression/perks/perk[@name='perkHeavyArmor']" name="max_level">5</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@name='DegradationPerUse']" name="level">0,5</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@name='LootProb']" name="level">1,5</setattribute>
+
+    <insertBefore xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group[1]">
+        <level_requirements level="5">
+            <requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10" />
+        </level_requirements>
+    </insertBefore>
+
+    <append xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group[1]">
+        <!--<passive_effect name="CraftingTier" operation="base_add" level="1,5" value="1,5" tags="perkHeavyArmor" />-->
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorHeavyMaster" />
+        <passive_effect name="CraftingTier" operation="base_set" level="1,2,3,4,5" value="2,3,4,5,6" tags="armorPrimitiveHelmet,armorPrimitiveOutfit,armorPrimitiveGloves,armorPrimitiveBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorMinerHelmet,armorMinerOutfit,armorMinerGloves,armorMinerBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorNomadHelmet,armorNomadOutfit,armorNomadGloves,armorNomadBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorNerdHelmet,armorNerdOutfit,armorNerdGloves,armorNerdBoots" />
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="armorRaiderHelmet,armorRaiderOutfit,armorRaiderGloves,armorRaiderBoots" />
+
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorHeavyMaster" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorMinerHelmet,armorMinerOutfit,armorMinerGloves,armorMinerBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorNomadHelmet,armorNomadOutfit,armorNomadGloves,armorNomadBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorNerdHelmet,armorNerdOutfit,armorNerdGloves,armorNerdBoots" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorRaiderHelmet,armorRaiderOutfit,armorRaiderGloves,armorRaiderBoots" />
+        <effect_description level="5" desc_key="perkHeavyArmorRank5Desc" long_desc_key="perkHeavyArmorRank5LongDesc"/>
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="foodBaconAndEggs,foodBoiledMeat,foodGrilledMeat,foodBakedPotato,foodCornBread,foodCornOnTheCob,drinkJarRedTea,drinkJarCoffee,drinkJarGoldenRodTea" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="foodShamChowder,foodHoboStew,foodFishTacos,drinkYuccaJuiceSmoothie,foodChiliDog,drinkJarBeer" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,3" value="1" tags="foodGumboStew,foodShepardsPie,foodSpaghetti,foodTunaFishGravyToast" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,3" value="1" tags="drinkJarGrandpasMoonshine,drinkJarGrandpasAwesomeSauce,drinkJarGrandpasLearningElixir" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkMiner69r" />
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeToolRepairT1ClawHammer,meleeToolAxeT1IronFireaxe,meleeToolPickT1IronPickaxe,meleeToolShovelT1IronShovel" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkBrawler']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkBrawler" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnKnucklesT1IronKnuckles" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkMachineGunner" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunMGT1AK47" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="plantedAloe1,plantedChrysanthemum1,plantedGoldenrod1,plantedYucca1" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="plantedBlueberry1,plantedCoffee1,plantedCorn1,plantedCotton1,plantedMushroom1,plantedPotato1,plantedHop1,plantedPumpkin1,plantedGraceCorn1" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkArchery']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkArchery" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowT1WoodenBow,gunBowT1IronCrossbow" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkGunslinger" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunHandgunT1Pistol" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkDeepCuts" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnBladeT1HuntingKnife" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,4" value="1,4" tags="perkLightArmor" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkElectrocutioner" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnBatonT2StunBaton" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group[1]">
-		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,4" tags="perkTurrets" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBotT1JunkSledge" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,4" value="1" tags="chemistryStation,medicalFirstAidBandage,medicalPlasterCast" />
-		<!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,4" value="1" tags="drugPainkillers"/>-->
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,4" value="1" tags="medicalFirstAidKit,drugSteroids" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4" value="1" tags="drugFortBites,drugRecog,drugAntibiotics" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="forge,cntDewCollector" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="workbench,chemistryStation,cementMixer" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="resourceMilitaryFiber,generatorbank,electricwirerelay,switch,ceilingLight01_player,industrialLight01_player,industrialLight02_player,armorMiningHelmet,spotlightPlayer,speaker,pressureplate,pressureplateLong,dartTrap,electrictimerrelay,motionsensor,tripwirepost,electricfencepost,bladeTrap" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="toolForgeCrucible,autoTurret" />
-	</append>
-	
-	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group[1]">
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="vehicleWheels,vehicleBicycleChassis,vehicleBicycleHandlebars" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="carBattery,ammoGasCan,vehicleMinibikeChassis,vehicleMinibikeHandlebars" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="resourceOil,vehicleMotorcycleChassis,vehicleMotorcycleHandlebars" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="ammoGasCanBundle,vehicle4x4TruckChassis,vehicle4x4TruckAccessories" />
-		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="vehicleGyroCopterChassis,vehicleGyroCopterAccessories" />
-	</append>
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkBrawler']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkBrawler" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnKnucklesT1IronKnuckles" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkMachineGunner" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunMGT1AK47" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="plantedAloe1,plantedChrysanthemum1,plantedGoldenrod1,plantedYucca1" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="plantedBlueberry1,plantedCoffee1,plantedCorn1,plantedCotton1,plantedMushroom1,plantedPotato1,plantedHop1,plantedPumpkin1,plantedGraceCorn1" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkArchery']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkArchery" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBowT1WoodenBow,gunBowT1IronCrossbow" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkGunslinger" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunHandgunT1Pistol" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkDeepCuts" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnBladeT1HuntingKnife" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkElectrocutioner" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="meleeWpnBatonT2StunBaton" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group[1]">
+        <passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="perkTurrets" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="gunBotT1JunkSledge" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,4" value="1" tags="chemistryStation,medicalFirstAidBandage,medicalPlasterCast" />
+        <!--<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,4" value="1" tags="drugPainkillers"/>-->
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,4" value="1" tags="medicalFirstAidKit,drugSteroids" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4" value="1" tags="drugFortBites,drugRecog,drugAntibiotics" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="forge,cntDewCollector" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="workbench,chemistryStation,cementMixer" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="resourceMilitaryFiber,generatorbank,electricwirerelay,switch,ceilingLight01_player,industrialLight01_player,industrialLight02_player,armorMiningHelmet,spotlightPlayer,speaker,pressureplate,pressureplateLong,dartTrap,electrictimerrelay,motionsensor,tripwirepost,electricfencepost,bladeTrap" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="toolForgeCrucible,autoTurret" />
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group[1]">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="vehicleWheels,vehicleBicycleChassis,vehicleBicycleHandlebars" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="carBattery,ammoGasCan,vehicleMinibikeChassis,vehicleMinibikeHandlebars" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="resourceOil,vehicleMotorcycleChassis,vehicleMotorcycleHandlebars" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="ammoGasCanBundle,vehicle4x4TruckChassis,vehicle4x4TruckAccessories" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="vehicleGyroCopterChassis,vehicleGyroCopterAccessories" />
+    </append>
 
     <append xpath="//book[@name='perkGreatHeistGoldRush']/effect_group[1]">
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="thrownTimedCharge" />
@@ -138,30 +253,43 @@
     <append xpath="//book[@name='perkArtOfMiningDamage']/effect_group[1]">
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="armorMiningHelmet,modArmorHelmetLight,lanternLight_player" />
     </append>
-	
-	<remove xpath="/progression/attributes/attribute[@name='attCrafting']"></remove>
-	<remove xpath="/progression/crafting_skills/crafting_skill"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='riflesCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='explosivesCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='spearsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='salvageToolsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='shotgunsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='clubsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='sledgehammersCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='armorCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='foodCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='harvestingToolsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='knucklesCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='machineGunsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='seedCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='bowsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='handgunsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='bladesCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='roboticsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='medicalCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='electricianCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='trapsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='workstationCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='repairToolsCSM']"></remove>
-	<remove xpath="/progression/perks/perk/effect_group/passive_effect[@name='LootProb' and @tags='vehiclesCSM']"></remove>
+
+    <append xpath="/progression/attributes">
+        <attribute name="attPrimitiveSkills" name_key="attprimitiveskills" desc_key="attPrimitiveSkillsDesc" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="0" icon="ui_game_symbol_trex">
+        </attribute>
+    </append>
+
+    <append xpath="/progression/skills">
+        <skill name="skillPrimitiveCrafting" parent="attPrimitiveSkills" name_key="skillPrimitiveCraftingName" desc_key="skillPrimitiveCraftingDesc" icon="ui_game_symbol_hammer">
+            <effect_group />
+        </skill>
+    </append>
+
+    <remove xpath="/progression/attributes/attribute[@name='attCrafting']"></remove>
+    <remove xpath="/progression/crafting_skills/crafting_skill"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='riflesCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='explosivesCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='spearsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='salvageToolsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='shotgunsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='clubsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='sledgehammersCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='armorCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='armorMediumSkill']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='armorHeavySkill']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='foodCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='harvestingToolsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='knucklesCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='machineGunsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='seedCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='bowsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='handgunsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='bladesCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='roboticsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='medicalCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='electricianCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='trapsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='workstationCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='repairToolsCSM']"></remove>
+    <remove xpath="//effect_group/passive_effect[@name='LootProb' and @tags='vehiclesCSM']"></remove>
 </progression>

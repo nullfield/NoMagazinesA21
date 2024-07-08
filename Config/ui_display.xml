@@ -1,0 +1,6 @@
+<ui_display>
+    <remove xpath="/ui_display_info/item_display/item_display_info[@display_type='armorNerdOutfit']/display_entry[@name='dAttributeLevel']"></remove>
+    <append xpath="/ui_display_info/item_display/item_display_info[@display_type='armorNerdOutfit']">
+        <display_entry name="AttributeLevel" tags="attIntellect" title_key="statShowIntellect" display_leading_plus="true" />
+    </append>
+</ui_display>
