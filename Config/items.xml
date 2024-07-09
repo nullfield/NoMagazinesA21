@@ -476,77 +476,6 @@
             </effect_group>
         </item>
 
-        <!--<item name="armorLeatherSetSchematic">
-            <property name="Extends" value="schematicMaster" />
-            <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="armorLeatherChest" />
-            <property name="Unlocks" value="armorLeatherChest" />
-            <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherHood" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherChest" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherGloves" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherPants" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorLeatherBoots" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-            </effect_group>
-        </item>
-
-        <item name="armorMilitarySetSchematic">
-            <property name="Extends" value="schematicMaster" />
-            <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="armorMilitaryVest" />
-            <property name="Unlocks" value="armorMilitaryVest" />
-            <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryHelmet" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryVest" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryGloves" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryLegs" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorMilitaryBoots" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-            </effect_group>
-        </item>
-
-        <item name="resourceMilitaryFiberSchematic">
-            <property name="Extends" value="schematicMaster" />
-            <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="resourceMilitaryFiber" />
-            <property name="Unlocks" value="resourceMilitaryFiber" />
-            <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="resourceMilitaryFiber" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-            </effect_group>
-        </item>
-
-        <item name="armorIronSetSchematic">
-            <property name="Extends" value="schematicMaster" />
-            <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="armorIronChest" />
-            <property name="Unlocks" value="armorIronChest" />
-            <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronHelmet" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronChest" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronGloves" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronLegs" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorIronBoots" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-            </effect_group>
-        </item>
-
-        <item name="armorSteelSetSchematic">
-            <property name="Extends" value="schematicMaster" />
-            <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="armorSteelChest" />
-            <property name="Unlocks" value="armorSteelChest" />
-            <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelHelmet" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelChest" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelGloves" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelLegs" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="armorSteelBoots" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
-            </effect_group>
-        </item>-->
-
         <item name="schematicNoQualityMaster">
             <property name="Extends" value="schematicMaster" />
             <property name="DescriptionKey" value="schematicNoQualityGroupDesc" />
@@ -802,11 +731,11 @@
             </effect_group>
         </item>
 
-        <item name="vehicle4x4TruckChassisSchematic">
+        <item name="vehicleTruck4x4ChassisSchematic">
             <property name="Extends" value="schematicNoQualityMaster" />
             <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="vehicle4x4TruckChassis" />
-            <property name="Unlocks" value="vehicle4x4TruckChassis" />
+            <property name="CustomIcon" value="vehicleTruck4x4Chassis" />
+            <property name="Unlocks" value="vehicleTruck4x4Chassis" />
             <effect_group tiered="false">
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckChassis" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
@@ -814,11 +743,11 @@
             </effect_group>
         </item>
 
-        <item name="vehicle4x4TruckAccessoriesSchematic">
+        <item name="vehicleTruck4x4AccessoriesSchematic">
             <property name="Extends" value="schematicNoQualityMaster" />
             <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="vehicle4x4TruckAccessories" />
-            <property name="Unlocks" value="vehicle4x4TruckAccessories" />
+            <property name="CustomIcon" value="vehicleTruck4x4Accessories" />
+            <property name="Unlocks" value="vehicleTruck4x4Accessories" />
             <effect_group tiered="false">
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckAccessories" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
