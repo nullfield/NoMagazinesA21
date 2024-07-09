@@ -737,7 +737,7 @@
             <property name="CustomIcon" value="vehicleTruck4x4Chassis" />
             <property name="Unlocks" value="vehicleTruck4x4Chassis" />
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckChassis" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleTruck4x4Chassis" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
             </effect_group>
@@ -749,7 +749,7 @@
             <property name="CustomIcon" value="vehicleTruck4x4Accessories" />
             <property name="Unlocks" value="vehicleTruck4x4Accessories" />
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicle4x4TruckAccessories" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleTruck4x4Accessories" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
             </effect_group>
@@ -2302,8 +2302,8 @@
     <setattribute xpath="/items/item[@name='vehicleBicycleHandlebars']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleBicycleHandlebarsSchematic</setattribute>
     <setattribute xpath="/items/item[@name='vehicleMotorcycleChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMotorcycleChassisSchematic</setattribute>
     <setattribute xpath="/items/item[@name='vehicleMotorcycleHandlebars']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleMotorcycleHandlebarsSchematic</setattribute>
-    <setattribute xpath="/items/item[@name='vehicleTruck4x4Chassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicle4x4TruckChassisSchematic</setattribute>-->
-    <setattribute xpath="/items/item[@name='vehicleTruck4x4Accessories']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicle4x4TruckAccessoriesSchematic</setattribute>
+    <setattribute xpath="/items/item[@name='vehicleTruck4x4Chassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleTruck4x4ChassisSchematic</setattribute>-->
+    <setattribute xpath="/items/item[@name='vehicleTruck4x4Accessories']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleTruck4x4AccessoriesSchematic</setattribute>
     <setattribute xpath="/items/item[@name='vehicleGyroCopterChassis']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleGyroCopterChassisSchematic</setattribute>
     <setattribute xpath="/items/item[@name='vehicleGyroCopterAccessories']/property[@name='UnlockedBy']" name="value">perkGreaseMonkey,vehicleGyroCopterAccessoriesSchematic</setattribute>
 
