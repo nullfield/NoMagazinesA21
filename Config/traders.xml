@@ -155,8 +155,8 @@
         <item name="drinkJarGrandpasMoonshineSchematic"/> 
         <item name="vehicleMotorcycleChassisSchematic"/> 
         <item name="vehicleMotorcycleHandlebarsSchematic"/> 
-        <item name="vehicle4x4TruckChassisSchematic"/> 
-        <item name="vehicle4x4TruckAccessoriesSchematic"/> 
+        <item name="vehicleTruck4x4ChassisSchematic"/> 
+        <item name="vehicleTruck4x4AccessoriesSchematic"/> 
         <item name="vehicleGyroCopterChassisSchematic"/> 
         <item name="vehicleGyroCopterAccessoriesSchematic"/> 
     </append>
