@@ -67,7 +67,7 @@
     </insertBefore>
 
     <insertBefore xpath="/progression/perks/perk[@name='perkMediumArmor']">
-        <perk name="perkLightArmor" max_level="5" parent="skillAgilityAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
+        <perk name="perkLightArmor" max_level="5" parent="skillAgilityAthletics" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor">
           <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="1" desc_key="reqAgilityLevel01" /></level_requirements>
           <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="3" desc_key="reqAgilityLevel03" /></level_requirements>
           <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="5" desc_key="reqAgilityLevel05" /></level_requirements>
