@@ -260,10 +260,10 @@
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="armorMiningHelmet,modArmorHelmetLight,lanternLight_player" />
     </append>
 
-    <append xpath="/progression/attributes">
+    <insertBefore xpath="/progression/attributes/attribute[@name='attBooks']">
         <attribute name="attPrimitiveSkills" name_key="attprimitiveskills" desc_key="attPrimitiveSkillsDesc" min_level="0" max_level="0" base_skill_point_cost="0" cost_multiplier_per_level="0" icon="ui_game_symbol_trex">
         </attribute>
-    </append>
+    </insertBefore>
 
     <append xpath="/progression/skills">
         <skill name="skillPrimitiveCrafting" parent="attPrimitiveSkills" name_key="skillPrimitiveCraftingName" desc_key="skillPrimitiveCraftingDesc" icon="ui_game_symbol_hammer">
