@@ -112,13 +112,19 @@
         </perk>
     </insertBefore>
 
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']" name="parent">skillFortitudeSurvival</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/level_requirements/requirement[@name='ProgressionLevel']" name="progression_name">attFortitude</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/level_requirements/requirement[@name='ProgressionLevel' and @value='1']" name="desc_key">reqFortitudeLevel01</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/level_requirements/requirement[@name='ProgressionLevel' and @value='3']" name="desc_key">reqFortitudeLevel03</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/level_requirements/requirement[@name='ProgressionLevel' and @value='5']" name="desc_key">reqFortitudeLevel05</setattribute>
+    <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/level_requirements/requirement[@name='ProgressionLevel' and @value='7']" name="desc_key">reqFortitudeLevel07</setattribute>
     <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']" name="max_level">5</setattribute>
     <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect[@name='DegradationPerUse']" name="level">0,5</setattribute>
     <setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect[@name='LootProb']" name="level">1,5</setattribute>
 
     <insertBefore xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group[1]">
         <level_requirements level="5">
-            <requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="10" desc_key="reqAgilityLevel10" />
+            <requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10" />
         </level_requirements>
     </insertBefore>
 
