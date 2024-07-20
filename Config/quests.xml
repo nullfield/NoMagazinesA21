@@ -1,4 +1,5 @@
 <quests>
     <csv xpath="//reward[@type='LootItem']/@id" delim="," op="remove">groupQuestT1SkillMagazineBundle</csv>
+    <csv xpath="//reward[@type='LootItem']/@id" delim="," op="remove">groupChallengeRewardSkillMagazinesAll</csv>
     <remove xpath="//reward[@type='LootItem' and @id='']"></remove>
 </quests>

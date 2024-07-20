@@ -4,6 +4,10 @@
     <remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll']"></remove>
     <remove xpath="/lootcontainers/lootgroup[@name='weaponSkillMagazinesOnly']"></remove>
     <remove xpath="/lootcontainers/lootgroup[@name='groupQuestT1SkillMagazineBundle']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupChallengeRewardSkillMagazinesAll']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupChallengeRewardSkillMagazinesAll01']"></remove>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_03']"></remove>
+
     <remove xpath="/lootcontainers/lootgroup/item[@group='skillMagazines']"></remove>
     <remove xpath="/lootcontainers/lootgroup/item[@group='weaponSkillMagazinesOnly']"></remove>
     <remove xpath="/lootcontainers/lootgroup/item[@name='questRewardT1SkillMagazineBundle']"></remove>
@@ -31,4 +35,6 @@
     <remove xpath="/lootcontainers/lootgroup/item[@name='explosivesSkillMagazine']"></remove>
     <remove xpath="/lootcontainers/lootgroup/item[@name='knucklesSkillMagazine']"></remove>
     <remove xpath="/lootcontainers/lootcontainer/item[@group='groupQuestRewardSkillMagazinesAll']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@group='groupChallengeRewardSkillMagazinesAll']"></remove>
+    <remove xpath="/lootcontainers/lootgroup/item[@group='groupBuriedSuppliesT1_03']"></remove>
 </loot>
