@@ -25,7 +25,7 @@
     <remove xpath="/items/item[@name='adminSkillMagazine']"></remove>
     <remove xpath="/items/item[@name='questRewardT1SkillMagazineBundle']"></remove>
 
-    <!--<remove xpath="parent::/items/item[@name='armorNerdOutfit']/effect_group/triggered_effect[@cvar='$nerdOutfitSkillPointChance']"></remove>-->
+    <!--<remove xpath="/items/item[@name='armorNerdOutfit']/effect_group/triggered_effect[@cvar='$nerdOutfitSkillPointChance']/.."></remove>-->
     <remove xpath="/items/item[@name='armorNerdOutfit']/effect_group/triggered_effect[@cvar='$nerdOutfitSkillPointChance']"></remove>
     <remove xpath="/items/item[@name='armorNerdOutfit']/effect_group[@name='NerdOutfit']/display_value[@name='dAttributeLevel']"></remove>
 
@@ -2477,6 +2477,69 @@
     <setattribute xpath="/items/item[@name='questReward4x4PartsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">4,1</setattribute>
     <setattribute xpath="/items/item[@name='questRewardGyrocopterPartsBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">vehicleWheels,questRewardVehiclePartsBundle</setattribute>
     <setattribute xpath="/items/item[@name='questRewardGyrocopterPartsBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">3,1</setattribute>
+
+    <setattribute xpath="/items/item[@name='questRewardPipeBatonBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnBatonT0PipeBaton,gunBotRoboticsParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardPipeBatonBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,1</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelKnuckleCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnKnucklesT3SteelKnucklesParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelKnuckleCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardMacheteCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnBladeT3MacheteParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardMacheteCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelClubCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnClubT3SteelClubParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelClubCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelSledgehammerCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnSledgeT3SteelSledgehammerParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelSledgehammerCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardBowCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunBowT1WoodenBowParts,ammoArrowIron</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardBowCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelSpearCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnSpearT3SteelSpearParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelSpearCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardHandgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunHandgunT1PistolParts,ammo9mmBulletBall</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardHandgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardShotgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunShotgunT1DoubleBarrelParts,ammoShotgunShell</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardShotgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardRifleCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunRifleT1HuntingRifleParts,ammo762mmBulletBall</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardRifleCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardMachineGunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunMGT1AK47Parts,ammo762mmBulletBall</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardMachineGunCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardRocketLauncherCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunExplosivesT3RocketLauncherParts,ammoRocketFrag</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardRocketLauncherCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,20</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardBatonCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeWpnBatonT2StunBatonParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardBatonCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardRoboticsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">gunBotRoboticsParts,ammoJunkTurretRegular</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardRoboticsCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeToolAllSteelParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardSteelToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardMotorToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">meleeToolAxeT3ChainsawParts,ammoGasCan</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardMotorToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">2,1000</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelKnuckleCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeWpnKnucklesT3SteelKnucklesParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelKnuckleCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryMacheteCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeWpnBladeT3MacheteParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryMacheteCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelClubCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeWpnClubT3SteelClubParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelClubCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelSledgehammerCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeWpnSledgeT3SteelSledgehammerParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelSledgehammerCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryBowCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunBowT1WoodenBowParts,ammoArrowIron</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryBowCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelSpearCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeWpnSpearT3SteelSpearParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelSpearCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryHandgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunHandgunT1PistolParts,ammo44MagnumBulletBall</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryHandgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryShotgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunShotgunT1DoubleBarrelParts,ammoShotgunShell</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryShotgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryRifleCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunRifleT1HuntingRifleParts,ammo762mmBulletBall</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryRifleCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryMachineGunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunMGT1AK47Parts,ammo762mmBulletBall</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryMachineGunCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryRocketLauncherCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunExplosivesT3RocketLauncherParts,ammoRocketFrag</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryRocketLauncherCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,20</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryBatonCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeWpnBatonT2StunBatonParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryBatonCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryRoboticsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,gunBotRoboticsParts,ammoJunkTurretRegular</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryRoboticsCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,100</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeToolAllSteelParts</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendarySteelToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryMotorToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']" name="value">resourceLegendaryParts,meleeToolAxeT3ChainsawParts,ammoGasCan</setattribute>
+    <setattribute xpath="/items/item[@name='questRewardLegendaryMotorToolsCraftingBundle']/property[@class='Action0']/property[@name='Create_item_count']" name="value">1,6,1000</setattribute>
 
     <!-- Yucca Juice wasn't locked in A20. -->
     <remove xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='UnlockedBy']"></remove>

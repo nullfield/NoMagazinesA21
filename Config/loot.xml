@@ -1,4 +1,195 @@
 <loot>
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
+        <!-- *** T0_Tool_Schematics -->
+        <lootgroup name="schematicsToolsT0">
+            <item name="forgeSchematic"/>
+            <item name="meleeToolIronSetSchematic"/>
+            <item name="meleeToolSalvageT1WrenchSchematic"/>
+            <item name="meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <item name="meleeWpnSledgeT1IronSledgehammerSchematic"/>
+            <item name="ammoGasCanSchematic"/>
+            <item name="resourceOilSchematic"/>
+        </lootgroup>
+
+        <!-- *** T1_Tool_Schematics -->
+        <lootgroup name="schematicsToolsT1">
+            <item name="meleeToolSteelSetSchematic"/>
+            <item name="meleeToolSalvageT2RatchetSchematic"/>
+            <item name="meleeWpnSledgeT3SteelSledgehammerSchematic"/>
+            <item name="toolBellowsSchematic"/>
+            <item name="toolAnvilSchematic"/>
+            <item name="cementMixerSchematic"/>
+            <item name="workbenchSchematic"/>
+            <item name="chemistryStationSchematic"/>
+        </lootgroup>
+
+        <!-- *** T2_Tool_Schematics -->
+        <lootgroup name="schematicsToolsT2">
+            <item name="toolForgeCrucibleSchematic"/>
+            <item name="meleeToolPickT3AugerSchematic"/>
+            <item name="meleeToolAxeT3ChainsawSchematic"/>
+            <item name="meleeToolSalvageT3ImpactDriverSchematic"/>
+            <item name="meleeToolRepairT3NailgunSchematic"/>
+        </lootgroup>
+
+        <!-- *** Tool_Schematics_Scaled -->
+        <lootgroup name="schematicsToolsCommon">
+            <item group="schematicsToolsT0"/>
+            <item group="schematicsToolsT1" loot_prob_template="ProbT1Cap"/>
+            <item group="schematicsToolsT2" loot_prob_template="ProbT2Cap"/>
+        </lootgroup>
+
+        <lootgroup name="schematicsToolsRare">
+            <item group="schematicsToolsT1"/>
+            <item group="schematicsToolsT2" loot_prob_template="ProbT2Cap"/>
+        </lootgroup>
+
+        <!-- *** T0_Weapons_Armor_Schematics -->
+        <lootgroup name="schematicsWeaponsArmorT0">
+            <item name="gunBotT1JunkSledgeSchematic"/>
+            <item name="gunBowT1IronCrossbowSchematic"/>
+            <item name="gunBowT1WoodenBowSchematic"/>
+            <item name="gunHandgunT1PistolSchematic"/>
+            <item name="gunMGT1AK47Schematic"/>
+            <item name="gunRifleT1HuntingRifleSchematic"/>
+            <item name="gunShotgunT1DoubleBarrelSchematic"/>
+            <item name="meleeWpnBatonT2StunBatonSchematic"/>
+            <item name="meleeWpnBladeT1HuntingKnifeSchematic"/>
+            <item name="meleeWpnClubT1BaseballBatSchematic"/>
+            <item name="meleeWpnKnucklesT1IronKnucklesSchematic"/>
+            <item name="meleeWpnSpearT1IronSpearSchematic"/>
+            <item name="thrownAmmoPipeBombSchematic"/>
+            <item name="thrownDynamiteSchematic"/>
+        </lootgroup>
+
+        <!-- *** T1_Weapons_Armor_Schematics -->
+        <lootgroup name="schematicsWeaponsArmorT1">
+            <item name="gunBotT2JunkTurretSchematic"/>
+            <item name="gunBowT3CompoundBowSchematic"/>
+            <item name="gunBowT3CompoundCrossbowSchematic"/>
+            <item name="gunHandgunT2Magnum44Schematic"/>
+            <item name="gunMGT2TacticalARSchematic"/>
+            <item name="gunRifleT2LeverActionRifleSchematic"/>
+            <item name="gunShotgunT2PumpShotgunSchematic"/>
+            <item name="meleeWpnBladeT3MacheteSchematic"/>
+            <item name="meleeWpnKnucklesT3SteelKnucklesSchematic"/>
+            <item name="thrownGrenadeSchematic"/>
+        </lootgroup>
+
+        <!-- *** T2_Weapons_Armor_Schematics -->
+        <lootgroup name="schematicsWeaponsArmorT2">
+            <item name="gunExplosivesT3RocketLauncherSchematic"/>
+            <item name="gunHandgunT3DesertVultureSchematic"/>
+            <item name="gunHandgunT3SMG5Schematic"/>
+            <item name="gunMGT3M60Schematic"/>
+            <item name="gunRifleT3SniperRifleSchematic"/>
+            <item name="gunShotgunT3AutoShotgunSchematic"/>
+            <item name="thrownGrenadeContactSchematic"/>
+            <item name="gunBotT3JunkDroneSchematic" loot_prob_template="med"/>
+            <item name="modRoboticDroneCargoModSchematic" loot_prob_template="med"/>
+            <item name="modRoboticDroneMedicModSchematic" loot_prob_template="med"/>
+            <item name="modRoboticDroneHeadlampModSchematic" loot_prob_template="med"/>
+            <item name="modRoboticDroneArmorPlatingModSchematic" loot_prob_template="med"/>
+            <item name="modRoboticDroneMoraleBoosterModSchematic" loot_prob_template="med"/>
+        </lootgroup>
+
+        <!-- *** Weapons_Armor_Schematics_Scaled -->
+        <lootgroup name="schematicsWeaponsArmorCommon">
+            <item group="schematicsWeaponsArmorT0"/>
+            <item group="schematicsWeaponsArmorT1" loot_prob_template="ProbT1Cap"/>
+            <item group="schematicsWeaponsArmorT2" loot_prob_template="ProbT2Cap"/>
+        </lootgroup>
+
+        <lootgroup name="schematicsWeaponsArmorRare">
+            <item group="schematicsWeaponsArmorT1"/>
+            <item group="schematicsWeaponsArmorT2" loot_prob_template="ProbT2Cap"/>
+        </lootgroup>
+
+        <!-- *** T0_Farming_Food_Schematics -->
+        <lootgroup name="farmingCookingRecipesT0">
+            <item name="drinkJarCoffeeSchematic"/>
+            <item name="drinkJarGoldenRodTeaSchematic"/>
+            <item name="drinkJarRedTeaSchematic"/>
+            <item name="foodBaconAndEggsSchematic"/>
+            <item name="foodBakedPotatoSchematic"/>
+            <item name="foodBoiledMeatSchematic"/>
+            <item name="foodCornBreadSchematic"/>
+            <item name="foodCornOnTheCobSchematic"/>
+            <item name="foodGrilledMeatSchematic"/>
+            <item name="plantedAloe1Schematic"/>
+            <item name="plantedBlueberry1Schematic"/>
+            <item name="plantedChrysanthemum1Schematic"/>
+            <item name="plantedCoffee1Schematic"/>
+            <item name="plantedCorn1Schematic"/>
+            <item name="plantedCotton1Schematic"/>
+            <item name="plantedGoldenrod1Schematic"/>
+            <item name="plantedHop1Schematic"/>
+            <item name="plantedMushroom1Schematic"/>
+            <item name="plantedPotato1Schematic"/>
+            <item name="plantedPumpkin1Schematic"/>
+            <item name="plantedYucca1Schematic"/>
+        </lootgroup>
+
+        <!-- *** T1_Farming_Food_Schematics -->
+        <lootgroup name="farmingCookingRecipesT1">
+            <item name="drinkJarBeerSchematic"/>
+            <item name="drinkYuccaJuiceSmoothieSchematic"/>
+            <item name="foodBlueberryPieSchematic"/>
+            <item name="foodChiliDogSchematic"/>
+            <item name="foodFishTacosSchematic"/>
+            <item name="foodHoboStewSchematic"/>
+            <item name="foodMeatStewSchematic"/>
+            <item name="foodPumpkinBreadSchematic"/>
+            <item name="foodPumpkinCheesecakeSchematic"/>
+            <item name="foodPumpkinPieSchematic"/>
+            <item name="foodShamChowderSchematic"/>
+            <item name="foodSteakAndPotatoSchematic"/>
+            <item name="foodVegetableStewSchematic"/>
+            <item name="plantedGraceCorn1Schematic"/>
+        </lootgroup>
+
+        <!-- *** T2_Farming_Food_Schematics -->
+        <lootgroup name="farmingCookingRecipesT2">
+            <item name="drinkJarGrandpasAwesomeSauceSchematic"/>
+            <item name="drinkJarGrandpasLearningElixirSchematic"/>
+            <item name="drinkJarGrandpasMoonshineSchematic"/>
+            <item name="foodGumboStewSchematic" loot_prob_template="med"/>
+            <item name="foodShepardsPieSchematic" loot_prob_template="med"/>
+            <item name="foodSpaghettiSchematic" loot_prob_template="med"/>
+            <item name="foodTunaFishGravyToastSchematic" loot_prob_template="med"/>
+        </lootgroup>
+
+        <!-- *** Farming_Food_Schematics_Scaled -->
+        <lootgroup name="farmingCookingRecipesCommon">
+            <item group="farmingCookingRecipesT0"/>
+            <item group="farmingCookingRecipesT1" loot_prob_template="ProbT1Cap"/>
+            <item group="farmingCookingRecipesT2" loot_prob_template="ProbT2Cap"/>
+        </lootgroup>
+
+        <lootgroup name="farmingCookingRecipesRare">
+            <item group="farmingCookingRecipesT1"/>
+            <item group="farmingCookingRecipesT2" loot_prob_template="ProbT2Cap"/>
+        </lootgroup>
+
+        <!-- *** Electrical_Schematics -->
+        <lootgroup name="schematicsElectrical">
+            <item name="pressureplateSchematic"/>
+            <item name="poweredDoorsSchematic"/>
+            <item name="bladeTrapSchematic"/>
+            <item name="dartTrapSchematic"/>
+            <item name="shotgunTurretSchematic"/>
+            <item name="autoTurretSchematic"/>
+            <item name="electricfencepostSchematic"/>
+            <item name="motionsensorSchematic"/>
+            <item name="speakerSchematic"/>
+            <item name="spotlightPlayerSchematic"/>
+            <item name="switchSchematic"/>
+            <item name="generatorbankSchematic"/>
+            <item name="batterybankSchematic"/>
+            <item name="electrictimerrelaySchematic"/>
+        </lootgroup>
+    </insertBefore>
+
     <remove xpath="/lootcontainers/lootgroup[@name='skillMagazines']"></remove>
     <remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']"></remove>
     <remove xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll']"></remove>
@@ -37,4 +228,71 @@
     <remove xpath="/lootcontainers/lootcontainer/item[@group='groupQuestRewardSkillMagazinesAll']"></remove>
     <remove xpath="/lootcontainers/lootgroup/item[@group='groupChallengeRewardSkillMagazinesAll']"></remove>
     <remove xpath="/lootcontainers/lootgroup/item[@group='groupBuriedSuppliesT1_03']"></remove>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
+        <item name="medicalFirstAidBandageSchematic"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']">
+        <item name="drugHerbalAntibioticsSchematic"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+        <item name="drugAntibioticsSchematic"/>
+        <item name="medicalFirstAidKitSchematic"/>
+        <item name="medicalPlasterCastSchematic"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+        <item name="drugAntibioticsSchematic"/>
+        <item name="medicalFirstAidKitSchematic"/>
+        <item name="medicalPlasterCastSchematic"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT0']">
+        <item name="vehicleBicycleChassisSchematic"/>
+        <item name="vehicleBicycleHandlebarsSchematic"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+        <item name="vehicleMinibikeChassisSchematic"/>
+        <item name="vehicleMinibikeHandlebarsSchematic"/>
+        <item name="vehicleMotorcycleChassisSchematic"/>
+        <item name="vehicleMotorcycleHandlebarsSchematic"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
+        <item name="vehicleTruck4x4ChassisSchematic"/>
+        <item name="vehicleTruck4x4AccessoriesSchematic"/>
+        <item name="vehicleGyroCopterChassisSchematic"/>
+        <item name="vehicleGyroCopterAccessoriesSchematic"/>
+    </append>
+
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@group='schematicsModsAndGeneralCommon']">
+        <item group="farmingCookingRecipesCommon" loot_prob_template="medHigh"/>
+        <item group="schematicsWeaponsArmorCommon" loot_prob_template="med"/>
+    </insertBefore>
+
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@group='schematicsVehiclesCommon']">
+        <item group="schematicsElectrical" loot_prob_template="low"/>
+        <item group="schematicsToolsCommon" loot_prob_template="low"/>
+    </insertBefore>
+
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']/item[@group='schematicsModsAndGeneralRare']">
+        <item group="schematicsWeaponsArmorRare" loot_prob_template="high"/>
+        <item group="farmingCookingRecipesRare" loot_prob_template="medHigh"/>
+    </insertBefore>
+
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']/item[@group='schematicsVehiclesRare']">
+        <item group="schematicsToolsRare" loot_prob_template="low"/>
+    </insertBefore>
+
+    <insertBefore xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']/item[@group='schematicsVehiclesCommon']">
+        <item group="schematicsToolsCommon" loot_prob_template="low"/>
+        <item group="schematicsWeaponsArmorCommon" loot_prob_template="low"/>
+    </insertBefore>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']">
+        <item group="schematicsElectrical" loot_prob_template="low"/>
+    </append>
 </loot>
