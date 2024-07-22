@@ -1,0 +1,3 @@
+<loadingscreen>
+    <remove xpath="/doc/tips/tip[@key='loadingTipMagazines']"></remove>
+</loadingscreen>
