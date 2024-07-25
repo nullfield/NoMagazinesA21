@@ -907,7 +907,7 @@
         <item name="spotlightPlayerSchematic">
             <property name="Extends" value="schematicNoQualityMaster" />
             <property name="CreativeMode" value="Player" />
-            <property name="CustomIcon" value="spotlightNailedDownPOI" />
+            <property name="CustomIcon" value="spotlightDownLeft_POI" />
             <property name="Unlocks" value="spotlightPlayer" />
             <effect_group tiered="false">
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="spotlightPlayer" operation="set" value="1" />
