@@ -86,3 +86,8 @@ loadingTipPerkLootBoost,UI,Loading Screen,x,,"Investing points into a perk will 
 loadingTipKnownSchematics,UI,Loading Screen,x,,"If you have a perk book or mod schematic in your inventory, you can tell if you have already read it by looking at the small book symbol in the top left of the item's icon. If you have already read one, then it will show an open book symbol."
 vehicleTruck4x4AccessoriesSchematic,vehicles,item,,,4x4 Truck Accessories Schematic
 vehicleTruck4x4ChassisSchematic,vehicles,item,,,4x4 Truck Chassis Schematic
+challengeReadSchematics,Challenges,Challenge,,,Read a Crafting Schematic
+challengeReadSchematicHint1,Challenges,Challenge,,,[00FF00]Open [-][FFB400]the inventory [action:local:Inventory][action:permanent:Inventory] and read any [-][00FF00]Crafting Schematic[-][FFB400].[-]
+challengeReadSchematicsShort,Challenges,Challenge,,,Read schematics to unlock new crafting recipes.
+challengeReadSchematicsDesc,Challenges,Challenge,,,"[DECEA3]Crafting Schematics[-] exist for a wide variety of items. Reading them will unlock [DECEA3]Crafting Recipes[-]. You can track your [DECEA3]Crafting Recipe[-] unlocks in the [DECEA3]Crafting Window[-].\n\n[DECEA3]Crafting Schematics[-] can be found in various loot containers such as [DECEA3]Mailboxes[-], for sale at [DECEA3]Traders[-], or given as a [DECEA3]Quest Reward[-]."
+xuiSchematic,UI,XUI,,,Schematic

@@ -1,0 +1,12 @@
+<challenges>
+    <remove xpath="/challenges/challenge[@name='readMagazines']"></remove>
+    <insertBefore xpath="/challenges/challenge[@name='scrapItems']">
+        <challenge name="readMagazines" title_key="challengeReadSchematics" icon="ui_game_symbol_challenge_crafting_read_magazine"
+            group="Workstations"
+            hint="challengeReadSchematicHint1"
+            short_description_key="challengeReadSchematicsShort" description_key="challengeReadSchematicsDesc"
+            reward_text_key="challenge_reward_500xp" reward_event="challenge_reward_500">
+		<objective type="UseItem" item_tags="schematic" override_text_key="xuiSchematic" count="1"/>
+	</challenge>
+    </insertBefore>
+</challenges>

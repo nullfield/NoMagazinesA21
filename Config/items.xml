@@ -37,6 +37,7 @@
 
     <append xpath="/items">
         <item name="schematicMaster">
+            <property name="Tags" value="schematic"/>
             <property name="DescriptionKey" value="schematicGeneralGroupDesc" />
             <property name="ItemTypeIcon" value="book" />
             <property name="AltItemTypeIcon" value="book_read" />
