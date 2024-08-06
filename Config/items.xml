@@ -816,13 +816,18 @@
             <property name="CreativeMode" value="Player" />
             <property name="CustomIcon" value="metalReinforcedWoodDrawBridge" />
             <property name="DescriptionKey" value="poweredDoorsSchematicDesc" />
-            <property name="Unlocks" value="vaultDoor03_Powered" />
+            <property name="Unlocks" value="metalReinforcedWoodDrawBridgePowered" />
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="garageDoorMetal_v1Powered" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor03_Powered" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultHatch_v3_Powered" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="garageDoorHousePlayer_Powered" operation="set" value="1" />
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="garageDoorIndustrial_Powered" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ironGarageDoor_PoweredBlockVariantHelper" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor01_Powered" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultDoor01Double_Powered" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vaultHatch01_Powered" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="woodenGarageDoor3x3_PoweredBlockVariantHelper" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="woodenGarageDoor4x3_PoweredBlockVariantHelper" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="woodenGarageDoor5x3_PoweredBlockVariantHelper" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelGarageDoor3x3_PoweredBlockVariantHelper" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelGarageDoor4x3_PoweredBlockVariantHelper" operation="set" value="1" />
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="steelGarageDoor5x3_PoweredBlockVariantHelper" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="metalReinforcedWoodDrawBridgePowered" operation="set" value="1" />
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50" />
             </effect_group>
